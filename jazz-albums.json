@@ -1,0 +1,1285 @@
+[
+  {
+    "title": "Kind of Blue",
+    "coverUrl": "images/miles-davis-kind-of-blue.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "A Love Supreme",
+    "coverUrl": "images/john-coltrane-a-love-supreme.jpg",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Out to Lunch",
+    "coverUrl": "images/eric-dolphy-out-to-lunch.jpg",
+    "artists": [
+      "Eric Dolphy"
+    ]
+  },
+  {
+    "title": "Time Out",
+    "coverUrl": "images/the-dave-brubeck-quartet-time-out.jpg",
+    "artists": [
+      "The Dave Brubeck Quartet"
+    ]
+  },
+  {
+    "title": "The Sidewinder",
+    "coverUrl": "images/lee-morgan-the-sidewinder.jpg",
+    "artists": [
+      "Lee Morgan"
+    ]
+  },
+  {
+    "title": "Speak No Evil",
+    "coverUrl": "images/wayne-shorter-speak-no-evil.jpg",
+    "artists": [
+      "Wayne Shorter"
+    ]
+  },
+  {
+    "title": "Waltz for Debby",
+    "coverUrl": "images/bill-evans-trio-waltz-for-debby.jpg",
+    "artists": [
+      "Bill Evans Trio"
+    ]
+  },
+  {
+    "title": "Maiden Voyage",
+    "coverUrl": "images/herbie-hancock-maiden-voyage.jpg",
+    "artists": [
+      "Herbie Hancock"
+    ]
+  },
+  {
+    "title": "Saxophone Colossus",
+    "coverUrl": "images/sonny-rollins-saxophone-colossus.jpg",
+    "artists": [
+      "Sonny Rollins"
+    ]
+  },
+  {
+    "title": "Somethin' Else",
+    "coverUrl": "images/cannonball-adderley-somethin-else.jpg",
+    "artists": [
+      "Cannonball Adderley"
+    ]
+  },
+  {
+    "title": "Blue Train",
+    "coverUrl": "images/john-coltrane-blue-train.jpg",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Giant Steps",
+    "coverUrl": "images/john-coltrane-giant-steps.jpg",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Bitches Brew",
+    "coverUrl": "images/miles-davis-bitches-brew.png",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Sunday at the Village Vanguard",
+    "coverUrl": "images/bill-evans-trio-sunday-at-the-village-vanguard.jpg",
+    "artists": [
+      "Bill Evans Trio"
+    ]
+  },
+  {
+    "title": "Mingus Ah Um",
+    "coverUrl": "images/charles-mingus-mingus-ah-um.jpg",
+    "artists": [
+      "Charles Mingus"
+    ]
+  },
+  {
+    "title": "The Complete Savoy & Dial Master Takes",
+    "coverUrl": "images/charlie-parker-the-complete-savoy-dial-master-takes.jpg",
+    "artists": [
+      "Charlie Parker"
+    ]
+  },
+  {
+    "title": "The Complete Hot Five and Hot Seven Recordings",
+    "coverUrl": "images/louis-armstrong-the-complete-hot-five-and-hot-seven-recordings.jpg",
+    "artists": [
+      "Louis Armstrong"
+    ]
+  },
+  {
+    "title": "Art Blakey and The Jazz Messengers [Moanin']",
+    "coverUrl": "images/art-blakey-and-the-jazz-messengers-art-blakey-and-the-jazz-messengers-moanin.jpg",
+    "artists": [
+      "Art Blakey and The Jazz Messengers"
+    ]
+  },
+  {
+    "title": "The Shape of Jazz to Come",
+    "coverUrl": "images/ornette-coleman-the-shape-of-jazz-to-come.jpg",
+    "artists": [
+      "Ornette Coleman"
+    ]
+  },
+  {
+    "title": "My Favorite Things",
+    "coverUrl": "images/john-coltrane-my-favorite-things.png",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Concert by the Sea [Columbia Jazz Masterpieces]",
+    "coverUrl": "images/erroll-garner-concert-by-the-sea-columbia-jazz-masterpieces.jpg",
+    "artists": [
+      "Erroll Garner"
+    ]
+  },
+  {
+    "title": "Brilliant Corners",
+    "coverUrl": "images/thelonious-monk-brilliant-corners.jpg",
+    "artists": [
+      "Thelonious Monk"
+    ]
+  },
+  {
+    "title": "Soul Station",
+    "coverUrl": "images/hank-mobley-soul-station.jpg",
+    "artists": [
+      "Hank Mobley"
+    ]
+  },
+  {
+    "title": "Getz / Gilberto",
+    "coverUrl": "images/stan-getz-joao-gilberto-featuring-antonio-carlos-jobim-getz-gilberto.jpg",
+    "artists": [
+      "Stan Getz",
+      "João Gilberto",
+      "Antônio Carlos Jobim"
+    ]
+  },
+  {
+    "title": "The Famous 1938 Carnegie Hall Jazz Concert",
+    "coverUrl": "images/benny-goodman-the-famous-1938-carnegie-hall-jazz-concert.jpg",
+    "artists": [
+      "Benny Goodman"
+    ]
+  },
+  {
+    "title": "The Blues and the Abstract Truth",
+    "coverUrl": "images/oliver-nelson-the-blues-and-the-abstract-truth.jpg",
+    "artists": [
+      "Oliver Nelson"
+    ]
+  },
+  {
+    "title": "Art Pepper Meets the Rhythm Section",
+    "coverUrl": "images/art-pepper-art-pepper-meets-the-rhythm-section.jpg",
+    "artists": [
+      "Art Pepper"
+    ]
+  },
+  {
+    "title": "Song for My Father (Cantiga Para Meu Pai)",
+    "coverUrl": "images/the-horace-silver-quintet-song-for-my-father-cantiga-para-meu-pai.jpg",
+    "artists": [
+      "The Horace Silver Quintet"
+    ]
+  },
+  {
+    "title": "Clifford Brown and Max Roach",
+    "coverUrl": "images/clifford-brown-and-max-roach-clifford-brown-and-max-roach.jpg",
+    "artists": [
+      "Clifford Brown",
+      "Max Roach"
+    ]
+  },
+  {
+    "title": "Milestones",
+    "coverUrl": "images/miles-davis-milestones.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "In a Silent Way",
+    "coverUrl": "images/miles-davis-in-a-silent-way.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Point of Departure",
+    "coverUrl": "images/andrew-hill-point-of-departure.jpg",
+    "artists": [
+      "Andrew Hill"
+    ]
+  },
+  {
+    "title": "The Köln Concert",
+    "coverUrl": "images/keith-jarrett-the-koln-concert.jpg",
+    "artists": [
+      "Keith Jarrett"
+    ]
+  },
+  {
+    "title": "The Black Saint and the Sinner Lady",
+    "coverUrl": "images/mingus-the-black-saint-and-the-sinner-lady.jpg",
+    "artists": [
+      "Mingus"
+    ]
+  },
+  {
+    "title": "The Incredible Jazz Guitar of Wes Montgomery",
+    "coverUrl": "images/wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery.jpg",
+    "artists": [
+      "Wes Montgomery"
+    ]
+  },
+  {
+    "title": "Jazz at Massey Hall",
+    "coverUrl": "images/the-quintet-jazz-at-massey-hall.jpg",
+    "artists": [
+      "The Quintet"
+    ]
+  },
+  {
+    "title": "Sarah Vaughan",
+    "coverUrl": "images/sarah-vaughan-sarah-vaughan.jpg",
+    "artists": [
+      "Sarah Vaughan"
+    ]
+  },
+  {
+    "title": "Spiritual Unity",
+    "coverUrl": "images/albert-ayler-trio-spiritual-unity.jpg",
+    "artists": [
+      "Albert Ayler Trio"
+    ]
+  },
+  {
+    "title": "The Complete Decca Recordings",
+    "coverUrl": "images/count-basie-the-complete-decca-recordings.jpg",
+    "artists": [
+      "Count Basie"
+    ]
+  },
+  {
+    "title": "The Complete Atomic Basie",
+    "coverUrl": "images/count-basie-count-basie-orchestra-neal-hefti-the-complete-atomic-basie.jpg",
+    "artists": [
+      "Count Basie",
+      "Count Basie Orchestra",
+      "Neal Hefti"
+    ]
+  },
+  {
+    "title": "A Night at Birdland, Vol. 1",
+    "coverUrl": "images/art-blakey-quintet-a-night-at-birdland-vol-1.jpg",
+    "artists": [
+      "Art Blakey Quintet"
+    ]
+  },
+  {
+    "title": "A Night at Birdland, Vol. 2",
+    "coverUrl": "images/art-blakey-quintet-a-night-at-birdland-vol-2.jpg",
+    "artists": [
+      "Art Blakey Quintet"
+    ]
+  },
+  {
+    "title": "Birth of the Cool",
+    "coverUrl": "images/miles-davis-birth-of-the-cool.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Ellington at Newport",
+    "coverUrl": "images/duke-ellington-ellington-at-newport.jpg",
+    "artists": [
+      "Duke Ellington"
+    ]
+  },
+  {
+    "title": "Far East Suite",
+    "coverUrl": "images/duke-ellington-far-east-suite.jpg",
+    "artists": [
+      "Duke Ellington"
+    ]
+  },
+  {
+    "title": "Ella Fitzgerald: The Complete Songbooks",
+    "coverUrl": "images/ella-fitzgerald-ella-fitzgerald-the-complete-songbooks.jpg",
+    "artists": [
+      "Ella Fitzgerald"
+    ]
+  },
+  {
+    "title": "Go",
+    "coverUrl": "images/dexter-gordon-go.jpg",
+    "artists": [
+      "Dexter Gordon"
+    ]
+  },
+  {
+    "title": "Conference of the Birds",
+    "coverUrl": "images/david-holland-quartet-conference-of-the-birds.jpg",
+    "artists": [
+      "David Holland Quartet"
+    ]
+  },
+  {
+    "title": "The Inner Mounting Flame",
+    "coverUrl": "images/mahavishnu-orchestra-john-mc-laughlin-the-inner-mounting-flame.jpg",
+    "artists": [
+      "Mahavishnu Orchestra",
+      "John McLaughlin"
+    ]
+  },
+  {
+    "title": "The Amazing Bud Powell, Volume 1",
+    "coverUrl": "images/bud-powell-the-amazing-bud-powell-volume-1.jpg",
+    "artists": [
+      "Bud Powell"
+    ]
+  },
+  {
+    "title": "The Amazing Bud Powell, Volume 2",
+    "coverUrl": "images/bud-powell-the-amazing-bud-powell-volume-2.jpg",
+    "artists": [
+      "Bud Powell"
+    ]
+  },
+  {
+    "title": "The Real McCoy",
+    "coverUrl": "images/mc-coy-tyner-the-real-mc-coy.jpg",
+    "artists": [
+      "McCoy Tyner"
+    ]
+  },
+  {
+    "title": "Study in Brown",
+    "coverUrl": "images/clifford-brown-and-max-roach-study-in-brown.jpg",
+    "artists": [
+      "Clifford Brown",
+      "Max Roach"
+    ]
+  },
+  {
+    "title": "The Blanton-Webster Band",
+    "coverUrl": "images/duke-ellington-the-blanton-webster-band.jpg",
+    "artists": [
+      "Duke Ellington"
+    ]
+  },
+  {
+    "title": "Money Jungle",
+    "coverUrl": "images/duke-ellington-charles-mingus-max-roach-money-jungle.jpg",
+    "artists": [
+      "Duke Ellington",
+      "Charles Mingus",
+      "Max Roach"
+    ]
+  },
+  {
+    "title": "Idle Moments",
+    "coverUrl": "images/grant-green-idle-moments.png",
+    "artists": [
+      "Grant Green"
+    ]
+  },
+  {
+    "title": "Head Hunters",
+    "coverUrl": "images/herbie-hancock-head-hunters.jpg",
+    "artists": [
+      "Herbie Hancock"
+    ]
+  },
+  {
+    "title": "Lady Day: The Best of Billie Holiday",
+    "coverUrl": "images/billie-holiday-lady-day-the-best-of-billie-holiday.jpg",
+    "artists": [
+      "Billie Holiday"
+    ]
+  },
+  {
+    "title": "Django",
+    "coverUrl": "images/the-modern-jazz-quartet-django.jpg",
+    "artists": [
+      "The Modern Jazz Quartet"
+    ]
+  },
+  {
+    "title": "We Insist! Max Roach's Freedom Now Suite",
+    "coverUrl": "images/max-roach-we-insist-max-roachs-freedom-now-suite.png",
+    "artists": [
+      "Max Roach"
+    ]
+  },
+  {
+    "title": "Back at the Chicken Shack",
+    "coverUrl": "images/the-incredible-jimmy-smith-back-at-the-chicken-shack.jpg",
+    "artists": [
+      "The Incredible Jimmy Smith"
+    ]
+  },
+  {
+    "title": "Unit Structures",
+    "coverUrl": "images/cecil-taylor-unit-structures.jpg",
+    "artists": [
+      "Cecil Taylor"
+    ]
+  },
+  {
+    "title": "Further Definitions",
+    "coverUrl": "images/benny-carter-and-his-orchestra-further-definitions.jpg",
+    "artists": [
+      "Benny Carter and His Orchestra"
+    ]
+  },
+  {
+    "title": "The Genius of the Electric Guitar",
+    "coverUrl": "images/charlie-christian-the-genius-of-the-electric-guitar.jpg",
+    "artists": [
+      "Charlie Christian"
+    ]
+  },
+  {
+    "title": "Change of the Century",
+    "coverUrl": "images/ornette-coleman-change-of-the-century.jpg",
+    "artists": [
+      "Ornette Coleman"
+    ]
+  },
+  {
+    "title": "Sketches of Spain",
+    "coverUrl": "images/miles-davis-sketches-of-spain.png",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Out of the Cool",
+    "coverUrl": "images/the-gil-evans-orchestra-out-of-the-cool.jpg",
+    "artists": [
+      "The Gil Evans Orchestra"
+    ]
+  },
+  {
+    "title": "Our Man in Paris",
+    "coverUrl": "images/dexter-gordon-our-man-in-paris.jpg",
+    "artists": [
+      "Dexter Gordon"
+    ]
+  },
+  {
+    "title": "Body and Soul",
+    "coverUrl": "images/coleman-hawkins-body-and-soul.jpg",
+    "artists": [
+      "Coleman Hawkins"
+    ]
+  },
+  {
+    "title": "Open Sesame",
+    "coverUrl": "images/freddie-hubbard-open-sesame.jpg",
+    "artists": [
+      "Freddie Hubbard"
+    ]
+  },
+  {
+    "title": "King Oliver's Creole Jazz Band: The Complete Set",
+    "coverUrl": "images/king-oliver-king-olivers-creole-jazz-band-the-complete-set.jpg",
+    "artists": [
+      "King Oliver"
+    ]
+  },
+  {
+    "title": "Black Codes (From the Underground)",
+    "coverUrl": "images/wynton-marsalis-black-codes-from-the-underground.jpg",
+    "artists": [
+      "Wynton Marsalis"
+    ]
+  },
+  {
+    "title": "Bird and Diz",
+    "coverUrl": "images/charlie-parker-dizzy-gillespie-bird-and-diz.jpg",
+    "artists": [
+      "Charlie Parker",
+      "Dizzy Gillespie"
+    ]
+  },
+  {
+    "title": "A Night at the Village Vanguard",
+    "coverUrl": "images/sonny-rollins-a-night-at-the-village-vanguard.jpg",
+    "artists": [
+      "Sonny Rollins"
+    ]
+  },
+  {
+    "title": "Karma",
+    "coverUrl": "images/pharoah-sanders-karma.jpg",
+    "artists": [
+      "Pharoah Sanders"
+    ]
+  },
+  {
+    "title": "Blowin' the Blues Away",
+    "coverUrl": "images/the-horace-silver-quintet-trio-blowin-the-blues-away.jpg",
+    "artists": [
+      "The Horace Silver Quintet & Trio"
+    ]
+  },
+  {
+    "title": "Heavy Weather",
+    "coverUrl": "images/weather-report-heavy-weather.jpg",
+    "artists": [
+      "Weather Report"
+    ]
+  },
+  {
+    "title": "Blue Light 'til Dawn",
+    "coverUrl": "images/cassandra-wilson-blue-light-til-dawn.jpg",
+    "artists": [
+      "Cassandra Wilson"
+    ]
+  },
+  {
+    "title": "Unity",
+    "coverUrl": "images/larry-young-unity.jpg",
+    "artists": [
+      "Larry Young"
+    ]
+  },
+  {
+    "title": "Louis Armstrong Plays W. C. Handy",
+    "coverUrl": "images/louis-armstrong-louis-armstrong-plays-w-c-handy.jpg",
+    "artists": [
+      "Louis Armstrong"
+    ]
+  },
+  {
+    "title": "The Best of Chet Baker Sings",
+    "coverUrl": "images/chet-baker-the-best-of-chet-baker-sings.jpg",
+    "artists": [
+      "Chet Baker"
+    ]
+  },
+  {
+    "title": "Machine Gun",
+    "coverUrl": "images/the-peter-brotzmann-octet-machine-gun.jpg",
+    "artists": [
+      "The Peter Brötzmann Octet"
+    ]
+  },
+  {
+    "title": "Cool Struttin'",
+    "coverUrl": "images/sonny-clark-cool-struttin.jpg",
+    "artists": [
+      "Sonny Clark"
+    ]
+  },
+  {
+    "title": "Free Jazz",
+    "coverUrl": "images/the-ornette-coleman-double-quartet-free-jazz.jpg",
+    "artists": [
+      "The Ornette Coleman Double Quartet"
+    ]
+  },
+  {
+    "title": "The Complete 1961 Village Vanguard Recordings",
+    "coverUrl": "images/john-coltrane-the-complete-1961-village-vanguard-recordings.jpg",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Ascension",
+    "coverUrl": "images/john-coltrane-ascension.jpg",
+    "artists": [
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Now He Sings, Now He Sobs",
+    "coverUrl": "images/chick-corea-now-he-sings-now-he-sobs.jpg",
+    "artists": [
+      "Chick Corea"
+    ]
+  },
+  {
+    "title": "Return to Forever",
+    "coverUrl": "images/chick-corea-return-to-forever.jpg",
+    "artists": [
+      "Chick Corea"
+    ]
+  },
+  {
+    "title": "Ella and Louis",
+    "coverUrl": "images/ella-fitzgerald-louis-armstrong-ella-and-louis.jpg",
+    "artists": [
+      "Ella Fitzgerald",
+      "Louis Armstrong"
+    ]
+  },
+  {
+    "title": "Sonny Side Up",
+    "coverUrl": "images/dizzy-gillespie-sonny-stitt-sonny-rollins-sonny-side-up.jpg",
+    "artists": [
+      "Dizzy Gillespie",
+      "Sonny Stitt",
+      "Sonny Rollins"
+    ]
+  },
+  {
+    "title": "Page One",
+    "coverUrl": "images/joe-henderson-page-one.png",
+    "artists": [
+      "Joe Henderson"
+    ]
+  },
+  {
+    "title": "Dialogue",
+    "coverUrl": "images/bobby-hutcherson-dialogue.jpg",
+    "artists": [
+      "Bobby Hutcherson"
+    ]
+  },
+  {
+    "title": "Subconscious-Lee",
+    "coverUrl": "images/lee-konitz-subconscious-lee.jpg",
+    "artists": [
+      "Lee Konitz"
+    ]
+  },
+  {
+    "title": "Live in Paris",
+    "coverUrl": "images/diana-krall-live-in-paris.jpg",
+    "artists": [
+      "Diana Krall"
+    ]
+  },
+  {
+    "title": "Pithecanthropus Erectus",
+    "coverUrl": "images/the-charlie-mingus-jazz-workshop-pithecanthropus-erectus.jpg",
+    "artists": [
+      "The Charlie Mingus Jazz Workshop"
+    ]
+  },
+  {
+    "title": "Blues & Roots",
+    "coverUrl": "images/charlie-mingus-blues-roots.jpg",
+    "artists": [
+      "Charlie Mingus"
+    ]
+  },
+  {
+    "title": "Presents Charles Mingus",
+    "coverUrl": "images/charles-mingus-presents-charles-mingus.jpg",
+    "artists": [
+      "Charles Mingus"
+    ]
+  },
+  {
+    "title": "Genius of Modern Music, Volume One",
+    "coverUrl": "images/thelonious-monk-genius-of-modern-music-volume-one.jpg",
+    "artists": [
+      "Thelonious Monk"
+    ]
+  },
+  {
+    "title": "Genius of Modern Music, Volume Two",
+    "coverUrl": "images/thelonious-monk-genius-of-modern-music-volume-two.jpg",
+    "artists": [
+      "Thelonious Monk"
+    ]
+  },
+  {
+    "title": "At Carnegie Hall",
+    "coverUrl": "images/thelonious-monk-quartet-with-john-coltrane-at-carnegie-hall.jpg",
+    "artists": [
+      "Thelonious Monk Quartet",
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "The Best of the Gerry Mulligan Quartet With Chet Baker",
+    "coverUrl": "images/mulligan-baker-the-best-of-the-gerry-mulligan-quartet-with-chet-baker.jpg",
+    "artists": [
+      "Gerry Mulligan",
+      "Chet Baker"
+    ]
+  },
+  {
+    "title": "Virtuoso",
+    "coverUrl": "images/joe-pass-virtuoso.jpg",
+    "artists": [
+      "Joe Pass"
+    ]
+  },
+  {
+    "title": "Jaco Pastorius",
+    "coverUrl": "images/jaco-pastorius-jaco-pastorius.jpg",
+    "artists": [
+      "Jaco Pastorius"
+    ]
+  },
+  {
+    "title": "Ezz-thetics",
+    "coverUrl": "images/george-russell-sextet-ezz-thetics.jpg",
+    "artists": [
+      "George Russell Sextet"
+    ]
+  },
+  {
+    "title": "Escalator Over the Hill",
+    "coverUrl": "images/carla-bley-paul-haines-escalator-over-the-hill.jpg",
+    "artists": [
+      "Carla Bley",
+      "Paul Haines"
+    ]
+  },
+  {
+    "title": "Lenox Avenue Breakdown",
+    "coverUrl": "images/arthur-blythe-lenox-avenue-breakdown.jpg",
+    "artists": [
+      "Arthur Blythe"
+    ]
+  },
+  {
+    "title": "Midnight Blue",
+    "coverUrl": "images/kenny-burrell-midnight-blue.jpg",
+    "artists": [
+      "Kenny Burrell"
+    ]
+  },
+  {
+    "title": "'Round About Midnight",
+    "coverUrl": "images/miles-davis-round-about-midnight.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Miles Ahead",
+    "coverUrl": "images/miles-davis-19-miles-ahead.jpg",
+    "artists": [
+      "Miles Davis + 19"
+    ]
+  },
+  {
+    "title": "The OKeh Ellington",
+    "coverUrl": "images/duke-ellington-the-o-keh-ellington.jpg",
+    "artists": [
+      "Duke Ellington"
+    ]
+  },
+  {
+    "title": "The Complete RCA Victor Recordings 1937-1949",
+    "coverUrl": "images/dizzy-gillespie-the-complete-rca-victor-recordings-1937-1949.jpg",
+    "artists": [
+      "Dizzy Gillespie"
+    ]
+  },
+  {
+    "title": "Liberation Music Orchestra",
+    "coverUrl": "images/charlie-haden-liberation-music-orchestra.jpg",
+    "artists": [
+      "Charlie Haden"
+    ]
+  },
+  {
+    "title": "Beyond the Missouri Sky (Short Stories)",
+    "coverUrl": "images/charlie-haden-pat-metheny-beyond-the-missouri-sky-short-stories.jpg",
+    "artists": [
+      "Charlie Haden",
+      "Pat Metheny"
+    ]
+  },
+  {
+    "title": "Inner Urge",
+    "coverUrl": "images/joe-henderson-inner-urge.jpg",
+    "artists": [
+      "Joe Henderson"
+    ]
+  },
+  {
+    "title": "The Eminent Jay Jay Johnson Volume 1",
+    "coverUrl": "images/jay-jay-johnson-sextet-the-eminent-jay-jay-johnson-volume-1.jpg",
+    "artists": [
+      "Jay Jay Johnson Sextet"
+    ]
+  },
+  {
+    "title": "Smokin' at the Half Note",
+    "coverUrl": "images/wynton-kelly-wes-montgomery-smokin-at-the-half-note.jpg",
+    "artists": [
+      "Wynton Kelly",
+      "Wes Montgomery"
+    ]
+  },
+  {
+    "title": "Rip, Rig, and Panic / Now Please Don't You Cry, Beautiful Edith",
+    "coverUrl": "images/the-roland-kirk-quartet-rip-rig-and-panic-now-please-dont-you-cry-beautiful-edith.jpg",
+    "artists": [
+      "The Roland Kirk Quartet"
+    ]
+  },
+  {
+    "title": "Everybody's Boppin'",
+    "coverUrl": "images/lambert-hendricks-ross-everybodys-boppin.jpg",
+    "artists": [
+      "Lambert",
+      "Hendricks",
+      "Ross"
+    ]
+  },
+  {
+    "title": "From the Soul",
+    "coverUrl": "images/joe-lovano-from-the-soul.jpg",
+    "artists": [
+      "Joe Lovano"
+    ]
+  },
+  {
+    "title": "Let Freedom Ring",
+    "coverUrl": "images/jackie-mc-lean-let-freedom-ring.jpg",
+    "artists": [
+      "Jackie McLean"
+    ]
+  },
+  {
+    "title": "The Art of the Trio, Volume One",
+    "coverUrl": "images/brad-mehldau-the-art-of-the-trio-volume-one.jpg",
+    "artists": [
+      "Brad Mehldau"
+    ]
+  },
+  {
+    "title": "Bright Size Life",
+    "coverUrl": "images/pat-metheny-bright-size-life.jpg",
+    "artists": [
+      "Pat Metheny"
+    ]
+  },
+  {
+    "title": "Charlie Parker with Strings: The Master Takes",
+    "coverUrl": "images/charlie-parker-charlie-parker-with-strings-the-master-takes.jpg",
+    "artists": [
+      "Charlie Parker"
+    ]
+  },
+  {
+    "title": "Night Train",
+    "coverUrl": "images/the-oscar-peterson-trio-night-train.jpg",
+    "artists": [
+      "The Oscar Peterson Trio"
+    ]
+  },
+  {
+    "title": "Wish",
+    "coverUrl": "images/joshua-redman-wish.jpg",
+    "artists": [
+      "Joshua Redman"
+    ]
+  },
+  {
+    "title": "Tenor Madness",
+    "coverUrl": "images/sonny-rollins-quartet-tenor-madness.jpg",
+    "artists": [
+      "Sonny Rollins Quartet"
+    ]
+  },
+  {
+    "title": "Ask the Ages",
+    "coverUrl": "images/sonny-sharrock-ask-the-ages.jpg",
+    "artists": [
+      "Sonny Sharrock"
+    ]
+  },
+  {
+    "title": "Juju",
+    "coverUrl": "images/wayne-shorter-juju.jpg",
+    "artists": [
+      "Wayne Shorter"
+    ]
+  },
+  {
+    "title": "Sinatra at the Sands",
+    "coverUrl": "images/frank-sinatra-sinatra-at-the-sands.jpg",
+    "artists": [
+      "Frank Sinatra"
+    ]
+  },
+  {
+    "title": "The Sermon",
+    "coverUrl": "images/jimmy-smith-the-sermon.jpg",
+    "artists": [
+      "Jimmy Smith"
+    ]
+  },
+  {
+    "title": "The Complete Pablo Solo Masterpieces",
+    "coverUrl": "images/art-tatum-the-complete-pablo-solo-masterpieces.jpg",
+    "artists": [
+      "Art Tatum"
+    ]
+  },
+  {
+    "title": "The Album",
+    "coverUrl": "images/art-tatum-ben-webster-the-album.jpg",
+    "artists": [
+      "Art Tatum",
+      "Ben Webster"
+    ]
+  },
+  {
+    "title": "Emergency!",
+    "coverUrl": "images/the-tony-williams-lifetime-emergency.jpg",
+    "artists": [
+      "The Tony Williams Lifetime"
+    ]
+  },
+  {
+    "title": "Boss Tenors in Orbit",
+    "coverUrl": "images/gene-ammons-sonny-stitt-organ-boss-tenors-in-orbit.jpg",
+    "artists": [
+      "Gene Ammons",
+      "Sonny Stitt"
+    ]
+  },
+  {
+    "title": "The Complete RCA Victor Recordings",
+    "coverUrl": "images/louis-armstrong-the-complete-rca-victor-recordings.jpg",
+    "artists": [
+      "Louis Armstrong"
+    ]
+  },
+  {
+    "title": "Nice Guys",
+    "coverUrl": "images/art-ensemble-of-chicago-nice-guys.jpg",
+    "artists": [
+      "Art Ensemble of Chicago"
+    ]
+  },
+  {
+    "title": "Bix & Tram",
+    "coverUrl": "images/bix-beiderbecke-frankie-trumbauer-bix-tram.jpg",
+    "artists": [
+      "Bix Beiderbecke",
+      "Frankie Trumbauer"
+    ]
+  },
+  {
+    "title": "For Alto",
+    "coverUrl": "images/anthony-braxton-for-alto.jpg",
+    "artists": [
+      "Anthony Braxton"
+    ]
+  },
+  {
+    "title": "John Coltrane and Johnny Hartman",
+    "coverUrl": "images/john-coltrane-johnny-hartman-john-coltrane-and-johnny-hartman.jpg",
+    "artists": [
+      "John Coltrane",
+      "Johnny Hartman"
+    ]
+  },
+  {
+    "title": "The Complete Live at the Plugged Nickel 1965",
+    "coverUrl": "images/miles-davis-the-complete-live-at-the-plugged-nickel-1965.jpg",
+    "artists": [
+      "Miles Davis"
+    ]
+  },
+  {
+    "title": "Elegant Gypsy",
+    "coverUrl": "images/al-di-meola-elegant-gypsy.jpg",
+    "artists": [
+      "Al Di Meola"
+    ]
+  },
+  {
+    "title": "Strange Liberation",
+    "coverUrl": "images/dave-douglas-strange-liberation.jpg",
+    "artists": [
+      "Dave Douglas"
+    ]
+  },
+  {
+    "title": "Everybody Digs Bill Evans",
+    "coverUrl": "images/bill-evans-trio-everybody-digs-bill-evans.jpg",
+    "artists": [
+      "Bill Evans Trio"
+    ]
+  },
+  {
+    "title": "Portrait in Jazz",
+    "coverUrl": "images/bill-evans-trio-portrait-in-jazz.jpg",
+    "artists": [
+      "Bill Evans Trio"
+    ]
+  },
+  {
+    "title": "Modern Art",
+    "coverUrl": "images/art-farmer-modern-art.jpg",
+    "artists": [
+      "Art Farmer"
+    ]
+  },
+  {
+    "title": "Focus",
+    "coverUrl": "images/stan-getz-eddie-sauter-focus.jpg",
+    "artists": [
+      "Stan Getz",
+      "Eddie Sauter"
+    ]
+  },
+  {
+    "title": "The Jimmy Giuffre 3",
+    "coverUrl": "images/jimmy-giuffre-the-jimmy-giuffre-3.jpg",
+    "artists": [
+      "Jimmy Giuffre"
+    ]
+  },
+  {
+    "title": "Concierto",
+    "coverUrl": "images/jim-hall-concierto.jpg",
+    "artists": [
+      "Jim Hall"
+    ]
+  },
+  {
+    "title": "Empyrean Isles",
+    "coverUrl": "images/herbie-hancock-empyrean-isles.jpg",
+    "artists": [
+      "Herbie Hancock"
+    ]
+  },
+  {
+    "title": "Lush Life: The Music of Billy Strayhorn",
+    "coverUrl": "images/joe-henderson-lush-life-the-music-of-billy-strayhorn.jpg",
+    "artists": [
+      "Joe Henderson"
+    ]
+  },
+  {
+    "title": "Lady in Satin",
+    "coverUrl": "images/billie-holiday-ray-ellis-lady-in-satin.jpg",
+    "artists": [
+      "Billie Holiday",
+      "Ray Ellis"
+    ]
+  },
+  {
+    "title": "Red Clay",
+    "coverUrl": "images/freddie-hubbard-red-clay.jpg",
+    "artists": [
+      "Freddie Hubbard"
+    ]
+  },
+  {
+    "title": "Standards, Vol. 1",
+    "coverUrl": "images/keith-jarrett-gary-peacock-jack-de-johnette-standards-vol-1.jpg",
+    "artists": [
+      "Keith Jarrett",
+      "Gary Peacock",
+      "Jack DeJohnette"
+    ]
+  },
+  {
+    "title": "Bags Meets Wes!",
+    "coverUrl": "images/milt-jackson-wes-montgomery-bags-meets-wes.jpg",
+    "artists": [
+      "Milt Jackson",
+      "Wes Montgomery"
+    ]
+  },
+  {
+    "title": "The Original James P. Johnson: 1942-1945",
+    "coverUrl": "images/james-p-johnson-the-original-james-p-johnson-1942-1945.jpg",
+    "artists": [
+      "James P. Johnson"
+    ]
+  },
+  {
+    "title": "Eastern Sounds",
+    "coverUrl": "images/yusef-lateef-eastern-sounds.jpg",
+    "artists": [
+      "Yusef Lateef"
+    ]
+  },
+  {
+    "title": "Birds of Fire",
+    "coverUrl": "images/mahavishnu-orchestra-birds-of-fire.png",
+    "artists": [
+      "Mahavishnu Orchestra"
+    ]
+  },
+  {
+    "title": "Extrapolation",
+    "coverUrl": "images/john-mc-laughlin-extrapolation.jpg",
+    "artists": [
+      "John McLaughlin"
+    ]
+  },
+  {
+    "title": "Offramp",
+    "coverUrl": "images/pat-metheny-group-offramp.jpg",
+    "artists": [
+      "Pat Metheny Group"
+    ]
+  },
+  {
+    "title": "Mingus Mingus Mingus Mingus Mingus",
+    "coverUrl": "images/charles-mingus-mingus-mingus-mingus-mingus-mingus.jpg",
+    "artists": [
+      "Charles Mingus"
+    ]
+  },
+  {
+    "title": "Sound",
+    "coverUrl": "images/roscoe-mitchell-sextet-sound.jpg",
+    "artists": [
+      "Roscoe Mitchell Sextet"
+    ]
+  },
+  {
+    "title": "The Best of Thelonious Monk:  The Blue Note Years",
+    "coverUrl": "images/thelonious-monk-the-best-of-thelonious-monk-the-blue-note-years.jpg",
+    "artists": [
+      "Thelonious Monk"
+    ]
+  },
+  {
+    "title": "Thelonious Monk with John Coltrane: The Complete 1957 Riverside Recordings",
+    "coverUrl": "images/thelonious-monk-john-coltrane-thelonious-monk-with-john-coltrane-the-complete-1957-riverside-recordings.jpg",
+    "artists": [
+      "Thelonious Monk",
+      "John Coltrane"
+    ]
+  },
+  {
+    "title": "Monk's Dream",
+    "coverUrl": "images/the-thelonious-monk-quartet-monks-dream.jpg",
+    "artists": [
+      "The Thelonious Monk Quartet"
+    ]
+  },
+  {
+    "title": "Search for the New Land",
+    "coverUrl": "images/lee-morgan-search-for-the-new-land.jpg",
+    "artists": [
+      "Lee Morgan"
+    ]
+  },
+  {
+    "title": "Cornbread",
+    "coverUrl": "images/lee-morgan-cornbread.jpg",
+    "artists": [
+      "Lee Morgan"
+    ]
+  },
+  {
+    "title": "Jelly Roll Morton",
+    "coverUrl": "images/jelly-roll-morton-jelly-roll-morton.jpeg",
+    "artists": [
+      "Jelly Roll Morton"
+    ]
+  },
+  {
+    "title": "Ming",
+    "coverUrl": "images/david-murray-octet-ming.jpeg",
+    "artists": [
+      "David Murray Octet"
+    ]
+  },
+  {
+    "title": "The Complete Blue Note And Capitol Recordings (with Tadd Dameron)",
+    "coverUrl": "images/fats-navarro-the-complete-blue-note-and-capitol-recordings-with-tadd-dameron.jpg",
+    "artists": [
+      "Fats Navarro"
+    ]
+  },
+  {
+    "title": "Careless Love",
+    "coverUrl": "images/madeleine-peyroux-careless-love.jpg",
+    "artists": [
+      "Madeleine Peyroux"
+    ]
+  },
+  {
+    "title": "Way Out West",
+    "coverUrl": "images/sonny-rollins-way-out-west.jpg",
+    "artists": [
+      "Sonny Rollins"
+    ]
+  },
+  {
+    "title": "The Essential Bessie Smith",
+    "coverUrl": "images/bessie-smith-the-essential-bessie-smith.jpg",
+    "artists": [
+      "Bessie Smith"
+    ]
+  },
+  {
+    "title": "Jazz in Silhouette",
+    "coverUrl": "images/sun-ra-jazz-in-silhouette.jpg",
+    "artists": [
+      "Sun Ra"
+    ]
+  },
+  {
+    "title": "Saudades",
+    "coverUrl": "images/trio-beyond-saudades.jpg",
+    "artists": [
+      "Trio Beyond"
+    ]
+  },
+  {
+    "title": "Black Market",
+    "coverUrl": "images/weather-report-black-market.jpg",
+    "artists": [
+      "Weather Report"
+    ]
+  },
+  {
+    "title": "Nancy Wilson / Cannonball Adderley",
+    "coverUrl": "images/nancy-wilson-cannonball-adderley-nancy-wilson-cannonball-adderley.jpg",
+    "artists": [
+      "Nancy Wilson",
+      "Cannonball Adderley"
+    ]
+  },
+  {
+    "title": "The Complete Aladdin Recordings of Lester Young",
+    "coverUrl": "images/lester-young-the-complete-aladdin-recordings-of-lester-young.jpg",
+    "artists": [
+      "Lester Young"
+    ]
+  },
+  {
+    "title": "The Jazz Giants '56",
+    "coverUrl": "images/lester-young-teddy-wilson-roy-eldridge-vic-dickenson-jo-jones-freddie-green-gene-ramey-the-jazz-giants-56.jpg",
+    "artists": [
+      "Lester Young",
+      "Teddy Wilson",
+      "Roy Eldridge",
+      "Vic Dickenson",
+      "Jo Jones",
+      "Freddie Green",
+      "Gene Ramey"
+    ]
+  }
+]
