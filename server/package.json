@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "json-server jazz-albums.json -p 3001"
+  },
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}

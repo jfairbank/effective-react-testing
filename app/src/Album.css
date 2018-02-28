@@ -1,0 +1,29 @@
+.albums-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+
+.albums-list__item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.albums-list__item img {
+  height: 75px;
+  width: 75px;
+}
+
+@media (min-width: 655px) {
+  .albums-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .albums-list__item img {
+    height: 150px;
+    width: 150px;
+  }
+}
