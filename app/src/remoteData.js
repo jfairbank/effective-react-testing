@@ -1,23 +1,28 @@
-export const READY = 0
-export const LOADING = 1
-export const SUCCESS = 2
-export const ERROR = 3
+/* eslint-disable class-methods-use-this */
+
+import * as R from 'ramda'
+
+export const Ready = 0
+export const Loading = 1
+export const Success = 2
+export const Fail = 3
 
 const hasStatus = status => (data = {}) => data.status === status
 
-export const isReady = hasStatus(READY)
-export const isLoading = hasStatus(LOADING)
-export const isSuccess = hasStatus(SUCCESS)
-export const isError = hasStatus(ERROR)
+export const isReady = hasStatus(Ready)
+export const isLoading = hasStatus(Loading)
+export const isSuccess = hasStatus(Success)
+export const isError = hasStatus(Fail)
 
-export const map = (data, f) =>
-  isSuccess(data) ? { ...data, payload: f(data.payload) } : data
+export const ready = () => ({ status: Ready })
+export const loading = () => ({ status: Loading })
+export const success = payload => ({ status: Success, payload })
+export const fail = payload => ({ status: Fail, payload })
 
-const addMapMethod = data => ({ ...data, map: f => map(data, f) })
+export const map = R.curry(
+  (f, data) => (isSuccess(data) ? { ...data, payload: f(data.payload) } : data),
+)
 
-export const ready = () => addMapMethod({ status: READY })
-export const loading = () => addMapMethod({ status: LOADING })
-export const success = payload => addMapMethod({ status: SUCCESS, payload })
-export const error = payload => addMapMethod({ status: ERROR, payload })
+export const unwrap = data => (isSuccess(data) ? data.payload : null)
 
 export const check = (handlers, data) => handlers[data.status](data.payload)

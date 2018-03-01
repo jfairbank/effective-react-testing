@@ -1,0 +1,55 @@
+.album {
+  margin: 1.25rem;
+}
+
+.album__go-back {
+  background: transparent;
+  border: 0 none;
+  color: #336699;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.album__go-back:before {
+  content: '\00ab';
+  display: inline-block;
+  margin-right: 0.625rem;
+}
+
+.album__content {
+  text-align: center;
+}
+
+.album__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.album__artists {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.album__content img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.album__ratings {
+  margin-top: 1rem;
+}
+
+.album__rating-icon-button {
+  background: none;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.album__rating--liked.album__rating--selected {
+  color: #4189D1;
+}
+
+.album__rating--disliked.album__rating--selected {
+  color: #cc0000;
+}

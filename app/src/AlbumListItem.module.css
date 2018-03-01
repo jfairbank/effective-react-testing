@@ -1,0 +1,28 @@
+.album-list-item {
+  border: 1px solid transparent;
+  cursor: pointer;
+  height: 100%;
+  padding: 1.25rem 0.625rem;
+  text-align: center;
+}
+
+.album-list-item:hover {
+  background: rgba(189, 226, 255, 0.25);
+  border-color: rgba(189, 226, 255, 0.75);
+}
+
+.album-list-item img {
+  height: 9.375rem;
+  margin-bottom: 0.3125rem;
+  width: 9.375rem;
+}
+
+.album-list-item__title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3125rem;
+}
+
+.album-list-item__artists {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
