@@ -1,16 +1,22 @@
 import React from 'react'
+import * as Filter from './filter'
+import * as Sorter from './sorter'
 import AlbumList from './AlbumList'
 import './Albums.module.css'
 
 const Albums = ({
   albums,
   artistQuery,
+  filter,
+  sorter,
+  onFilter,
   onSearchArtist,
   onSelectAlbum,
   onSortBy,
 }) => (
   <div className="albums">
     <div>
+      Search Artist:
       <input
         type="text"
         value={artistQuery}
@@ -19,11 +25,20 @@ const Albums = ({
     </div>
 
     <div>
+      Filter:
+      <select onChange={e => onFilter(e.target.value)} value={filter}>
+        <option value={Filter.All}>All Albums</option>
+        <option value={Filter.Liked}>Liked Albums</option>
+        <option value={Filter.Disliked}>Disliked Albums</option>
+      </select>
+    </div>
+
+    <div>
       Sort By:
-      <select onInput={e => onSortBy(e.target.value)}>
-        <option value="id">Default</option>
-        <option value="title">Title</option>
-        <option value="artists">Artist</option>
+      <select onChange={e => onSortBy(e.target.value)} value={sorter}>
+        <option value={Sorter.Id}>Default</option>
+        <option value={Sorter.Title}>Title</option>
+        <option value={Sorter.Artist}>Artist</option>
       </select>
     </div>
 

@@ -39,17 +39,3 @@
 .album__ratings {
   margin-top: 1rem;
 }
-
-.album__rating-icon-button {
-  background: none;
-  border: 0 none;
-  cursor: pointer;
-}
-
-.album__rating--liked.album__rating--selected {
-  color: #4189D1;
-}
-
-.album__rating--disliked.album__rating--selected {
-  color: #cc0000;
-}

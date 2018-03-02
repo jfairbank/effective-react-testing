@@ -9,6 +9,7 @@ export const SORT_BY = 'app/SORT_BY'
 export const SELECT_ALBUM = 'app/SELECT_ALBUM'
 export const UNSELECT_ALBUM = 'app/UNSELECT_ALBUM'
 export const UPDATE_ALBUM = 'app/UPDATE_ALBUM'
+export const SELECT_FILTER = 'app/SELECT_FILTER'
 
 export const loadingAlbums = () => ({ type: LOADING_ALBUMS })
 export const receiveAlbums = albums => ({
@@ -30,6 +31,7 @@ export const sortBy = sorter => ({
 })
 export const selectAlbum = album => ({ type: SELECT_ALBUM, payload: album })
 export const unselectAlbum = () => ({ type: UNSELECT_ALBUM })
+export const selectFilter = filter => ({ type: SELECT_FILTER, payload: filter })
 
 export const loadAlbums = () => async dispatch => {
   dispatch(loadingAlbums())
@@ -42,14 +44,14 @@ export const loadAlbums = () => async dispatch => {
   }
 }
 
-export const rateAlbum = rating => async (dispatch, getState) => {
+const updateAlbum = updater => async (dispatch, getState) => {
   const album = selectors.selectedAlbum(getState())
 
   if (!album) {
     return
   }
 
-  const newAlbum = { ...album, rating }
+  const newAlbum = updater(album)
 
   dispatch({ type: UPDATE_ALBUM, payload: newAlbum })
 
@@ -60,3 +62,8 @@ export const rateAlbum = rating => async (dispatch, getState) => {
     dispatch({ type: UPDATE_ALBUM, payload: album })
   }
 }
+
+export const rateAlbum = rating => updateAlbum(album => ({ ...album, rating }))
+
+export const reviewAlbum = review =>
+  updateAlbum(album => ({ ...album, review }))

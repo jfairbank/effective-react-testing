@@ -3,6 +3,7 @@
   cursor: pointer;
   height: 100%;
   padding: 1.25rem 0.625rem;
+  position: relative;
   text-align: center;
 }
 
@@ -15,6 +16,25 @@
   height: 9.375rem;
   margin-bottom: 0.3125rem;
   width: 9.375rem;
+}
+
+.album-list-item--disliked img,
+.album-list-item--disliked .album-list-item__title,
+.album-list-item--disliked .album-list-item__artists {
+  filter: grayscale(100%) opacity(50%);
+}
+
+.album-list-item__rating {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.album-list-item--liked .album-list-item__rating {
+  left: 0.5rem;
+}
+
+.album-list-item--disliked .album-list-item__rating {
+  right: 0.5rem;
 }
 
 .album-list-item__title {

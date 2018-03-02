@@ -15,23 +15,40 @@ class App extends Component {
   }
 
   render() {
+    const {
+      filter,
+      selectedAlbum,
+      sorter,
+      onFilter,
+      onGoBack,
+      onRateAlbum,
+      onReviewAlbum,
+      onSearchArtist,
+      onSelectAlbum,
+      onSortBy,
+    } = this.props
+
     return RemoteData.check(
       {
         [RemoteData.Ready]: () => <Loading />,
         [RemoteData.Loading]: () => <Loading />,
         [RemoteData.Success]: albums =>
-          this.props.selectedAlbum ? (
+          selectedAlbum ? (
             <Album
-              album={this.props.selectedAlbum}
-              onGoBack={this.props.onGoBack}
-              onRate={this.props.onRateAlbum}
+              album={selectedAlbum}
+              onGoBack={onGoBack}
+              onRate={onRateAlbum}
+              onReview={onReviewAlbum}
             />
           ) : (
             <Albums
               albums={albums}
-              onSearchArtist={this.props.onSearchArtist}
-              onSelectAlbum={this.props.onSelectAlbum}
-              onSortBy={this.props.onSortBy}
+              filter={filter}
+              sorter={sorter}
+              onFilter={onFilter}
+              onSearchArtist={onSearchArtist}
+              onSelectAlbum={onSelectAlbum}
+              onSortBy={onSortBy}
             />
           ),
         [RemoteData.Fail]: () => <div>Got an error</div>,
@@ -44,19 +61,22 @@ class App extends Component {
 const mapStateToProps = state => ({
   albums: selectors.filteredAndSortedAlbums(state),
   artistQuery: state.artistQuery,
+  filter: state.filter,
   selectedAlbum: selectors.selectedAlbum(state),
-  sorter: state.artistQuery,
+  sorter: state.sorter,
 })
 
 const mapDispatchToProps = dispatch =>
   bindActionCreators(
     {
-      onMount: actions.loadAlbums,
+      onFilter: actions.selectFilter,
       onGoBack: actions.unselectAlbum,
+      onMount: actions.loadAlbums,
+      onRateAlbum: actions.rateAlbum,
+      onReviewAlbum: actions.reviewAlbum,
       onSearchArtist: actions.searchArtist,
       onSelectAlbum: actions.selectAlbum,
       onSortBy: actions.sortBy,
-      onRateAlbum: actions.rateAlbum,
     },
     dispatch,
   )

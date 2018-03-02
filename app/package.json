@@ -8,6 +8,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.7",
     "@fortawesome/react-fontawesome": "^0.0.17",
     "classnames": "^2.2.5",
+    "lodash": "^4.17.5",
     "ramda": "^0.25.0",
     "ramda-fantasy": "^0.8.0",
     "react": "^16.2.0",
