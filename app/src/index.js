@@ -4,11 +4,9 @@ import '@fortawesome/fontawesome-free-regular'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import DefaultApp from './App'
+import DefaultApp from './AppContainer'
 import { configureStore } from './store'
 import './index.css'
-// import registerServiceWorker from './registerServiceWorker'
-// import { unregister } from './registerServiceWorker'
 
 const store = configureStore()
 
@@ -22,13 +20,10 @@ function render(App) {
 }
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
+  module.hot.accept('./AppContainer', () => {
     // eslint-disable-next-line
-    render(require('./App').default)
+    render(require('./AppContainer').default)
   })
 }
 
 render(DefaultApp)
-
-// registerServiceWorker();
-// unregister()

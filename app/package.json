@@ -8,6 +8,8 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.7",
     "@fortawesome/react-fontawesome": "^0.0.17",
     "classnames": "^2.2.5",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "lodash": "^4.17.5",
     "ramda": "^0.25.0",
     "ramda-fantasy": "^0.8.0",
@@ -16,7 +18,8 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "testdouble": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
