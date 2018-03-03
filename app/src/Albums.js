@@ -35,7 +35,11 @@ const Albums = ({
 
     <div>
       Sort By:
-      <select onChange={e => onSortBy(e.target.value)} value={sorter}>
+      <select
+        onChange={e => onSortBy(e.target.value)}
+        value={sorter}
+        data-id="sort-by"
+      >
         <option value={Sorter.Id}>Default</option>
         <option value={Sorter.Title}>Title</option>
         <option value={Sorter.Artist}>Artist</option>

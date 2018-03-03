@@ -4,7 +4,15 @@ import Icon from '@fortawesome/react-fontawesome'
 import * as Rating from './rating'
 import './RatingIcon.module.css'
 
-const RatingIcon = ({ className, icon, size, rating, albumRating, onRate }) => {
+const RatingIcon = ({
+  className,
+  dataId,
+  icon,
+  size,
+  rating,
+  albumRating,
+  onRate,
+}) => {
   const selected = rating === albumRating
   const nextRating = selected ? Rating.NotRated : rating
 
@@ -19,6 +27,7 @@ const RatingIcon = ({ className, icon, size, rating, albumRating, onRate }) => {
         className={classNames(className, {
           'rating-icon--selected': selected,
         })}
+        data-id={dataId}
         icon={selected ? icon : ['far', icon]}
         size={size}
       />
@@ -29,6 +38,7 @@ const RatingIcon = ({ className, icon, size, rating, albumRating, onRate }) => {
 export const Like = ({ size, albumRating, onRate }) => (
   <RatingIcon
     className="rating-icon--liked"
+    dataId="rating-like"
     icon="thumbs-up"
     rating={Rating.Liked}
     size={size}
@@ -40,6 +50,7 @@ export const Like = ({ size, albumRating, onRate }) => (
 export const Dislike = ({ size, albumRating, onRate }) => (
   <RatingIcon
     className="rating-icon--disliked"
+    dataId="rating-dislike"
     icon="thumbs-down"
     rating={Rating.Disliked}
     size={size}

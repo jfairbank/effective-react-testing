@@ -28,8 +28,8 @@ class Album extends Component {
     const { review } = this.state
 
     return (
-      <div className="album">
-        <button className="album__go-back" onClick={onGoBack}>
+      <div className="album" data-id="album">
+        <button className="album__go-back" data-id="go-back" onClick={onGoBack}>
           Go Back
         </button>
 
@@ -47,7 +47,11 @@ class Album extends Component {
           </div>
 
           <div className="album__review">
-            <textarea value={review} onChange={this.updateReview} />
+            <textarea
+              value={review}
+              data-id="album-review"
+              onChange={this.updateReview}
+            />
           </div>
         </div>
       </div>

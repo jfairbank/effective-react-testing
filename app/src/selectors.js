@@ -12,14 +12,6 @@ const searchArtist = artistQuery =>
     ),
   )
 
-const sortProperties = {
-  [Sorter.Id]: 'id',
-  [Sorter.Title]: 'title',
-  [Sorter.Artist]: 'artists',
-}
-
-const sortProperty = sorter => sortProperties[sorter]
-
 const filterByRating = checkRating =>
   R.filter(R.pipe(R.prop('rating'), checkRating))
 
@@ -31,7 +23,18 @@ const filters = {
 
 const filterBy = filter => albums => filters[filter](albums)
 
-const sortBy = sorter => R.sortBy(R.prop(sortProperty(sorter)))
+const propComparator = (propName, comparison) =>
+  R.comparator((a, b) => comparison(R.prop(propName, a), R.prop(propName, b)))
+
+const sorters = {
+  [Sorter.Id]: R.sortBy(R.prop('id')),
+  [Sorter.Title]: R.sortBy(R.prop('title')),
+  [Sorter.Artist]: R.sort(
+    R.either(propComparator('artists', R.lt), propComparator('title', R.lt)),
+  ),
+}
+
+const sortBy = sorter => sorters[sorter]
 
 export const selectedAlbum = state =>
   R.pipe(

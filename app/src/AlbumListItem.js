@@ -32,11 +32,16 @@ const AlbumListItem = ({ album, onSelectAlbum }) => (
       'album-list-item--disliked': Rating.isDisliked(album.rating),
     })}
     onClick={() => onSelectAlbum(album)}
+    data-id="album-list-item"
   >
     <img src={album.coverUrl} alt="" />
     <RatingIcon rating={album.rating} />
-    <h2 className="album-list-item__title">{album.title}</h2>
-    <h3 className="album-list-item__artists">{album.artists.join(' - ')}</h3>
+    <h2 className="album-list-item__title" data-id="title">
+      {album.title}
+    </h2>
+    <h3 className="album-list-item__artists" data-id="artists">
+      {album.artists.join(' - ')}
+    </h3>
   </div>
 )
 

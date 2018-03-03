@@ -1,0 +1,52 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Kind of Blue",
+      "coverUrl": "http://localhost:3001/images/miles-davis-kind-of-blue.jpg",
+      "artists": ["Miles Davis"]
+    },
+    {
+      "id": 11,
+      "title": "Blue Train",
+      "coverUrl": "http://localhost:3001/images/john-coltrane-blue-train.jpg",
+      "artists": ["John Coltrane"]
+    },
+    {
+      "id": 2,
+      "title": "A Love Supreme",
+      "coverUrl":
+        "http://localhost:3001/images/john-coltrane-a-love-supreme.jpg",
+      "artists": ["John Coltrane"]
+    },
+    {
+      "id": 17,
+      "title": "The Complete Hot Five and Hot Seven Recordings",
+      "coverUrl":
+        "http://localhost:3001/images/louis-armstrong-the-complete-hot-five-and-hot-seven-recordings.jpg",
+      "artists": ["Louis Armstrong"]
+    },
+    {
+      "id": 15,
+      "title": "Mingus Ah Um",
+      "coverUrl":
+        "http://localhost:3001/images/charles-mingus-mingus-ah-um.jpg",
+      "artists": ["Charles Mingus"]
+    },
+    {
+      "id": 178,
+      "title": "The Jazz Giants '56",
+      "coverUrl":
+        "http://localhost:3001/images/lester-young-teddy-wilson-roy-eldridge-vic-dickenson-jo-jones-freddie-green-gene-ramey-the-jazz-giants-56.jpg",
+      "artists": [
+        "Lester Young",
+        "Teddy Wilson",
+        "Roy Eldridge",
+        "Vic Dickenson",
+        "Jo Jones",
+        "Freddie Green",
+        "Gene Ramey"
+      ]
+    }
+  ]
+}
