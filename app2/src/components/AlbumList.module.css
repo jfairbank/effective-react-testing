@@ -1,0 +1,8 @@
+.albumList {
+  display: grid;
+  grid-gap: 0.625rem;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  list-style: none;
+  margin: 1.25rem 0 0;
+  padding: 0;
+}

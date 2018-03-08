@@ -1,0 +1,48 @@
+.albumListItem {
+  border: 1px solid transparent;
+  cursor: pointer;
+  height: 100%;
+  padding: 1.25rem 0.625rem;
+  position: relative;
+  text-align: center;
+}
+
+.albumListItem:hover {
+  background: rgba(189, 226, 255, 0.25);
+  border-color: rgba(189, 226, 255, 0.75);
+}
+
+.albumListItem img {
+  height: 9.375rem;
+  margin-bottom: 0.3125rem;
+  width: 9.375rem;
+}
+
+.disliked img,
+.disliked .title,
+.disliked .artists {
+  filter: grayscale(100%) opacity(50%);
+}
+
+.rating {
+  position: absolute;
+  top: 0.5rem;
+}
+
+.liked .rating {
+  left: 0.5rem;
+}
+
+.disliked .rating {
+  right: 0.5rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3125rem;
+}
+
+.artists {
+  font-size: 1.2rem;
+  font-weight: normal;
+}

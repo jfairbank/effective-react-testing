@@ -1,0 +1,41 @@
+.album {
+  margin: 1.25rem;
+}
+
+.goBack {
+  background: transparent;
+  border: 0 none;
+  color: #336699;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.goBack:before {
+  content: '\00ab';
+  display: inline-block;
+  margin-right: 0.625rem;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.artists {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.content img {
+  height: 20rem;
+  width: 20rem;
+}
+
+.ratings {
+  margin-top: 1rem;
+}

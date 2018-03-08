@@ -1,0 +1,16 @@
+.button {
+  background: none;
+  border: 0 none;
+}
+
+.rateable {
+  cursor: pointer;
+}
+
+.liked.selected {
+  color: #4189D1;
+}
+
+.disliked.selected {
+  color: #cc0000;
+}
