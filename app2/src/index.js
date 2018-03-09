@@ -6,9 +6,11 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import DefaultApp from './components/AppContainer'
 import { configureStore } from './store'
+import * as api from './api'
+import * as selectors from './selectors'
 import './index.css'
 
-const store = configureStore()
+const store = configureStore(api, selectors)
 
 function render(App) {
   ReactDOM.render(

@@ -19,6 +19,7 @@ const put = (url, body) =>
   })
 
 export const all = () => fetch(`${baseUrl}/albums`).then(r => r.json())
+
 export const update = album => put(`${baseUrl}/albums/${album.id}`, album)
 
 // export const all = () =>

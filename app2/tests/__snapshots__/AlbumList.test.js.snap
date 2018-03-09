@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumList renders albums 1`] = `
+<ul
+  className={undefined}
+  data-id="album-list"
+>
+  <li>
+    <div
+      className=""
+      data-id="album-list-item"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src={undefined}
+      />
+      <h2
+        className={undefined}
+        data-id="title"
+      >
+        Awesome Jazz
+      </h2>
+      <h3
+        className={undefined}
+        data-id="artists"
+      >
+        Jane
+      </h3>
+    </div>
+  </li>
+  <li>
+    <div
+      className=""
+      data-id="album-list-item"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src={undefined}
+      />
+      <h2
+        className={undefined}
+        data-id="title"
+      >
+        Jazzy Fun
+      </h2>
+      <h3
+        className={undefined}
+        data-id="artists"
+      >
+        Joe
+      </h3>
+    </div>
+  </li>
+</ul>
+`;

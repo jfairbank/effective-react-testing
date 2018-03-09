@@ -9,5 +9,8 @@ import reducer from './reducer'
 //   return result
 // }
 
-export const configureStore = () =>
-  createStore(reducer, applyMiddleware(thunkMiddleware))
+export const configureStore = (api, selectors) =>
+  createStore(
+    reducer,
+    applyMiddleware(thunkMiddleware.withExtraArgument({ api, selectors })),
+  )

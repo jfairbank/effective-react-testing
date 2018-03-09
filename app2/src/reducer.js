@@ -1,7 +1,6 @@
 import * as R from 'ramda'
 import * as RemoteData from './remoteData'
 import * as actions from './actions'
-import * as Rating from './rating'
 import * as Filter from './filter'
 import * as Sorter from './sorter'
 
@@ -13,13 +12,6 @@ const INITIAL_STATE = {
   filter: Filter.All,
 }
 
-const receiveAlbums = albums =>
-  albums.map(album => ({
-    ...album,
-    rating: 'rating' in album ? album.rating : Rating.NotRated,
-    review: album.review || '',
-  }))
-
 export default function reducer(state = INITIAL_STATE, action) {
   switch (action.type) {
     case actions.LOADING_ALBUMS:
@@ -28,7 +20,7 @@ export default function reducer(state = INITIAL_STATE, action) {
     case actions.RECEIVE_ALBUMS:
       return {
         ...state,
-        albums: RemoteData.success(receiveAlbums(action.payload)),
+        albums: RemoteData.success(action.payload),
       }
 
     case actions.ERROR_ALBUMS:

@@ -1,6 +1,3 @@
-import * as api from './api'
-import * as selectors from './selectors'
-
 export const LOADING_ALBUMS = 'app/LOADING_ALBUMS'
 export const RECEIVE_ALBUMS = 'app/RECEIVE_ALBUMS'
 export const ERROR_ALBUMS = 'app/ERROR_ALBUMS'
@@ -33,7 +30,7 @@ export const selectAlbum = album => ({ type: SELECT_ALBUM, payload: album })
 export const unselectAlbum = () => ({ type: UNSELECT_ALBUM })
 export const selectFilter = filter => ({ type: SELECT_FILTER, payload: filter })
 
-export const loadAlbums = () => async dispatch => {
+export const loadAlbums = () => async (dispatch, _, { api }) => {
   dispatch(loadingAlbums())
 
   try {
@@ -44,7 +41,11 @@ export const loadAlbums = () => async dispatch => {
   }
 }
 
-const updateAlbum = updater => async (dispatch, getState) => {
+const updateAlbum = updater => async (
+  dispatch,
+  getState,
+  { api, selectors },
+) => {
   const album = selectors.selectedAlbum(getState())
 
   if (!album) {
