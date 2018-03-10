@@ -67,4 +67,4 @@ const updateAlbum = updater => async (
 export const rateAlbum = rating => updateAlbum(album => ({ ...album, rating }))
 
 export const reviewAlbum = review =>
-  updateAlbum(album => ({ ...album, review }))
+  updateAlbum(album => ({ ...album, reviews: album.reviews.concat(review) }))

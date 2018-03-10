@@ -1,3 +1,35 @@
+@import 'sizes.css';
+
 .albums {
   margin: 2.5rem;
+}
+
+.filterSections {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterSection + .filterSection {
+  margin-top: 1.25rem;
+}
+
+.filterSection .label {
+  font-size: 1.125rem;
+  margin-bottom: 0.3125rem;
+}
+
+.filterSection input,
+.filterSection select {
+  font-size: 1rem;
+}
+
+@media (--desktop) {
+  .filterSections {
+    flex-direction: row;
+  }
+
+  .filterSection + .filterSection {
+    margin-left: 2.5rem;
+    margin-top: 0;
+  }
 }

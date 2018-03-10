@@ -6,7 +6,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-kind-of-blue.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 2,
@@ -14,7 +16,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-a-love-supreme.jpg",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 3,
@@ -22,7 +26,9 @@
       "coverUrl": "http://localhost:3001/images/eric-dolphy-out-to-lunch.jpg",
       "artists": [
         "Eric Dolphy"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 4,
@@ -30,7 +36,9 @@
       "coverUrl": "http://localhost:3001/images/the-dave-brubeck-quartet-time-out.jpg",
       "artists": [
         "The Dave Brubeck Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 5,
@@ -38,7 +46,9 @@
       "coverUrl": "http://localhost:3001/images/lee-morgan-the-sidewinder.jpg",
       "artists": [
         "Lee Morgan"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 6,
@@ -46,7 +56,9 @@
       "coverUrl": "http://localhost:3001/images/wayne-shorter-speak-no-evil.jpg",
       "artists": [
         "Wayne Shorter"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 7,
@@ -54,7 +66,9 @@
       "coverUrl": "http://localhost:3001/images/bill-evans-trio-waltz-for-debby.jpg",
       "artists": [
         "Bill Evans Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 8,
@@ -62,7 +76,9 @@
       "coverUrl": "http://localhost:3001/images/herbie-hancock-maiden-voyage.jpg",
       "artists": [
         "Herbie Hancock"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 9,
@@ -70,7 +86,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-rollins-saxophone-colossus.jpg",
       "artists": [
         "Sonny Rollins"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 10,
@@ -78,7 +96,9 @@
       "coverUrl": "http://localhost:3001/images/cannonball-adderley-somethin-else.jpg",
       "artists": [
         "Cannonball Adderley"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 11,
@@ -86,7 +106,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-blue-train.jpg",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 12,
@@ -94,7 +116,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-giant-steps.jpg",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 13,
@@ -102,7 +126,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-bitches-brew.png",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 14,
@@ -110,7 +136,9 @@
       "coverUrl": "http://localhost:3001/images/bill-evans-trio-sunday-at-the-village-vanguard.jpg",
       "artists": [
         "Bill Evans Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 15,
@@ -118,7 +146,9 @@
       "coverUrl": "http://localhost:3001/images/charles-mingus-mingus-ah-um.jpg",
       "artists": [
         "Charles Mingus"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 16,
@@ -126,7 +156,9 @@
       "coverUrl": "http://localhost:3001/images/charlie-parker-the-complete-savoy-dial-master-takes.jpg",
       "artists": [
         "Charlie Parker"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 17,
@@ -134,7 +166,9 @@
       "coverUrl": "http://localhost:3001/images/louis-armstrong-the-complete-hot-five-and-hot-seven-recordings.jpg",
       "artists": [
         "Louis Armstrong"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 18,
@@ -142,7 +176,9 @@
       "coverUrl": "http://localhost:3001/images/art-blakey-and-the-jazz-messengers-art-blakey-and-the-jazz-messengers-moanin.jpg",
       "artists": [
         "Art Blakey and The Jazz Messengers"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 19,
@@ -150,7 +186,9 @@
       "coverUrl": "http://localhost:3001/images/ornette-coleman-the-shape-of-jazz-to-come.jpg",
       "artists": [
         "Ornette Coleman"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 20,
@@ -158,7 +196,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-my-favorite-things.png",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 21,
@@ -166,7 +206,9 @@
       "coverUrl": "http://localhost:3001/images/erroll-garner-concert-by-the-sea-columbia-jazz-masterpieces.jpg",
       "artists": [
         "Erroll Garner"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 22,
@@ -174,7 +216,9 @@
       "coverUrl": "http://localhost:3001/images/thelonious-monk-brilliant-corners.jpg",
       "artists": [
         "Thelonious Monk"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 23,
@@ -182,7 +226,9 @@
       "coverUrl": "http://localhost:3001/images/hank-mobley-soul-station.jpg",
       "artists": [
         "Hank Mobley"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 24,
@@ -192,7 +238,9 @@
         "Stan Getz",
         "João Gilberto",
         "Antônio Carlos Jobim"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 25,
@@ -200,7 +248,9 @@
       "coverUrl": "http://localhost:3001/images/benny-goodman-the-famous-1938-carnegie-hall-jazz-concert.jpg",
       "artists": [
         "Benny Goodman"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 26,
@@ -208,7 +258,9 @@
       "coverUrl": "http://localhost:3001/images/oliver-nelson-the-blues-and-the-abstract-truth.jpg",
       "artists": [
         "Oliver Nelson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 27,
@@ -216,7 +268,9 @@
       "coverUrl": "http://localhost:3001/images/art-pepper-art-pepper-meets-the-rhythm-section.jpg",
       "artists": [
         "Art Pepper"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 28,
@@ -224,7 +278,9 @@
       "coverUrl": "http://localhost:3001/images/the-horace-silver-quintet-song-for-my-father-cantiga-para-meu-pai.jpg",
       "artists": [
         "The Horace Silver Quintet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 29,
@@ -233,7 +289,9 @@
       "artists": [
         "Clifford Brown",
         "Max Roach"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 30,
@@ -241,7 +299,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-milestones.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 31,
@@ -249,7 +309,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-in-a-silent-way.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 32,
@@ -257,7 +319,9 @@
       "coverUrl": "http://localhost:3001/images/andrew-hill-point-of-departure.jpg",
       "artists": [
         "Andrew Hill"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 33,
@@ -265,7 +329,9 @@
       "coverUrl": "http://localhost:3001/images/keith-jarrett-the-koln-concert.jpg",
       "artists": [
         "Keith Jarrett"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 34,
@@ -273,7 +339,9 @@
       "coverUrl": "http://localhost:3001/images/mingus-the-black-saint-and-the-sinner-lady.jpg",
       "artists": [
         "Mingus"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 35,
@@ -281,7 +349,9 @@
       "coverUrl": "http://localhost:3001/images/wes-montgomery-the-incredible-jazz-guitar-of-wes-montgomery.jpg",
       "artists": [
         "Wes Montgomery"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 36,
@@ -289,7 +359,9 @@
       "coverUrl": "http://localhost:3001/images/the-quintet-jazz-at-massey-hall.jpg",
       "artists": [
         "The Quintet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 37,
@@ -297,7 +369,9 @@
       "coverUrl": "http://localhost:3001/images/sarah-vaughan-sarah-vaughan.jpg",
       "artists": [
         "Sarah Vaughan"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 38,
@@ -305,7 +379,9 @@
       "coverUrl": "http://localhost:3001/images/albert-ayler-trio-spiritual-unity.jpg",
       "artists": [
         "Albert Ayler Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 39,
@@ -313,7 +389,9 @@
       "coverUrl": "http://localhost:3001/images/count-basie-the-complete-decca-recordings.jpg",
       "artists": [
         "Count Basie"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 40,
@@ -323,7 +401,9 @@
         "Count Basie",
         "Count Basie Orchestra",
         "Neal Hefti"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 41,
@@ -331,7 +411,9 @@
       "coverUrl": "http://localhost:3001/images/art-blakey-quintet-a-night-at-birdland-vol-1.jpg",
       "artists": [
         "Art Blakey Quintet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 42,
@@ -339,7 +421,9 @@
       "coverUrl": "http://localhost:3001/images/art-blakey-quintet-a-night-at-birdland-vol-2.jpg",
       "artists": [
         "Art Blakey Quintet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 43,
@@ -347,7 +431,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-birth-of-the-cool.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 44,
@@ -355,7 +441,9 @@
       "coverUrl": "http://localhost:3001/images/duke-ellington-ellington-at-newport.jpg",
       "artists": [
         "Duke Ellington"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 45,
@@ -363,7 +451,9 @@
       "coverUrl": "http://localhost:3001/images/duke-ellington-far-east-suite.jpg",
       "artists": [
         "Duke Ellington"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 46,
@@ -371,7 +461,9 @@
       "coverUrl": "http://localhost:3001/images/ella-fitzgerald-ella-fitzgerald-the-complete-songbooks.jpg",
       "artists": [
         "Ella Fitzgerald"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 47,
@@ -379,7 +471,9 @@
       "coverUrl": "http://localhost:3001/images/dexter-gordon-go.jpg",
       "artists": [
         "Dexter Gordon"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 48,
@@ -387,7 +481,9 @@
       "coverUrl": "http://localhost:3001/images/david-holland-quartet-conference-of-the-birds.jpg",
       "artists": [
         "David Holland Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 49,
@@ -396,7 +492,9 @@
       "artists": [
         "Mahavishnu Orchestra",
         "John McLaughlin"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 50,
@@ -404,7 +502,9 @@
       "coverUrl": "http://localhost:3001/images/bud-powell-the-amazing-bud-powell-volume-1.jpg",
       "artists": [
         "Bud Powell"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 51,
@@ -412,7 +512,9 @@
       "coverUrl": "http://localhost:3001/images/bud-powell-the-amazing-bud-powell-volume-2.jpg",
       "artists": [
         "Bud Powell"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 52,
@@ -420,7 +522,9 @@
       "coverUrl": "http://localhost:3001/images/mc-coy-tyner-the-real-mc-coy.jpg",
       "artists": [
         "McCoy Tyner"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 53,
@@ -429,7 +533,9 @@
       "artists": [
         "Clifford Brown",
         "Max Roach"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 54,
@@ -437,7 +543,9 @@
       "coverUrl": "http://localhost:3001/images/duke-ellington-the-blanton-webster-band.jpg",
       "artists": [
         "Duke Ellington"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 55,
@@ -447,7 +555,9 @@
         "Duke Ellington",
         "Charles Mingus",
         "Max Roach"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 56,
@@ -455,7 +565,9 @@
       "coverUrl": "http://localhost:3001/images/grant-green-idle-moments.png",
       "artists": [
         "Grant Green"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 57,
@@ -463,7 +575,9 @@
       "coverUrl": "http://localhost:3001/images/herbie-hancock-head-hunters.jpg",
       "artists": [
         "Herbie Hancock"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 58,
@@ -471,7 +585,9 @@
       "coverUrl": "http://localhost:3001/images/billie-holiday-lady-day-the-best-of-billie-holiday.jpg",
       "artists": [
         "Billie Holiday"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 59,
@@ -479,7 +595,9 @@
       "coverUrl": "http://localhost:3001/images/the-modern-jazz-quartet-django.jpg",
       "artists": [
         "The Modern Jazz Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 60,
@@ -487,7 +605,9 @@
       "coverUrl": "http://localhost:3001/images/max-roach-we-insist-max-roachs-freedom-now-suite.png",
       "artists": [
         "Max Roach"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 61,
@@ -495,7 +615,9 @@
       "coverUrl": "http://localhost:3001/images/the-incredible-jimmy-smith-back-at-the-chicken-shack.jpg",
       "artists": [
         "The Incredible Jimmy Smith"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 62,
@@ -503,7 +625,9 @@
       "coverUrl": "http://localhost:3001/images/cecil-taylor-unit-structures.jpg",
       "artists": [
         "Cecil Taylor"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 63,
@@ -511,7 +635,9 @@
       "coverUrl": "http://localhost:3001/images/benny-carter-and-his-orchestra-further-definitions.jpg",
       "artists": [
         "Benny Carter and His Orchestra"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 64,
@@ -519,7 +645,9 @@
       "coverUrl": "http://localhost:3001/images/charlie-christian-the-genius-of-the-electric-guitar.jpg",
       "artists": [
         "Charlie Christian"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 65,
@@ -527,7 +655,9 @@
       "coverUrl": "http://localhost:3001/images/ornette-coleman-change-of-the-century.jpg",
       "artists": [
         "Ornette Coleman"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 66,
@@ -535,7 +665,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-sketches-of-spain.png",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 67,
@@ -543,7 +675,9 @@
       "coverUrl": "http://localhost:3001/images/the-gil-evans-orchestra-out-of-the-cool.jpg",
       "artists": [
         "The Gil Evans Orchestra"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 68,
@@ -551,7 +685,9 @@
       "coverUrl": "http://localhost:3001/images/dexter-gordon-our-man-in-paris.jpg",
       "artists": [
         "Dexter Gordon"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 69,
@@ -559,7 +695,9 @@
       "coverUrl": "http://localhost:3001/images/coleman-hawkins-body-and-soul.jpg",
       "artists": [
         "Coleman Hawkins"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 70,
@@ -567,7 +705,9 @@
       "coverUrl": "http://localhost:3001/images/freddie-hubbard-open-sesame.jpg",
       "artists": [
         "Freddie Hubbard"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 71,
@@ -575,7 +715,9 @@
       "coverUrl": "http://localhost:3001/images/king-oliver-king-olivers-creole-jazz-band-the-complete-set.jpg",
       "artists": [
         "King Oliver"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 72,
@@ -583,7 +725,9 @@
       "coverUrl": "http://localhost:3001/images/wynton-marsalis-black-codes-from-the-underground.jpg",
       "artists": [
         "Wynton Marsalis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 73,
@@ -592,7 +736,9 @@
       "artists": [
         "Charlie Parker",
         "Dizzy Gillespie"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 74,
@@ -600,7 +746,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-rollins-a-night-at-the-village-vanguard.jpg",
       "artists": [
         "Sonny Rollins"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 75,
@@ -608,7 +756,9 @@
       "coverUrl": "http://localhost:3001/images/pharoah-sanders-karma.jpg",
       "artists": [
         "Pharoah Sanders"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 76,
@@ -616,7 +766,9 @@
       "coverUrl": "http://localhost:3001/images/the-horace-silver-quintet-trio-blowin-the-blues-away.jpg",
       "artists": [
         "The Horace Silver Quintet & Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 77,
@@ -624,7 +776,9 @@
       "coverUrl": "http://localhost:3001/images/weather-report-heavy-weather.jpg",
       "artists": [
         "Weather Report"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 78,
@@ -632,7 +786,9 @@
       "coverUrl": "http://localhost:3001/images/cassandra-wilson-blue-light-til-dawn.jpg",
       "artists": [
         "Cassandra Wilson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 79,
@@ -640,7 +796,9 @@
       "coverUrl": "http://localhost:3001/images/larry-young-unity.jpg",
       "artists": [
         "Larry Young"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 80,
@@ -648,7 +806,9 @@
       "coverUrl": "http://localhost:3001/images/louis-armstrong-louis-armstrong-plays-w-c-handy.jpg",
       "artists": [
         "Louis Armstrong"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 81,
@@ -656,7 +816,9 @@
       "coverUrl": "http://localhost:3001/images/chet-baker-the-best-of-chet-baker-sings.jpg",
       "artists": [
         "Chet Baker"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 82,
@@ -664,7 +826,9 @@
       "coverUrl": "http://localhost:3001/images/the-peter-brotzmann-octet-machine-gun.jpg",
       "artists": [
         "The Peter Brötzmann Octet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 83,
@@ -672,7 +836,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-clark-cool-struttin.jpg",
       "artists": [
         "Sonny Clark"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 84,
@@ -680,7 +846,9 @@
       "coverUrl": "http://localhost:3001/images/the-ornette-coleman-double-quartet-free-jazz.jpg",
       "artists": [
         "The Ornette Coleman Double Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 85,
@@ -688,7 +856,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-the-complete-1961-village-vanguard-recordings.jpg",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 86,
@@ -696,7 +866,9 @@
       "coverUrl": "http://localhost:3001/images/john-coltrane-ascension.jpg",
       "artists": [
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 87,
@@ -704,7 +876,9 @@
       "coverUrl": "http://localhost:3001/images/chick-corea-now-he-sings-now-he-sobs.jpg",
       "artists": [
         "Chick Corea"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 88,
@@ -712,7 +886,9 @@
       "coverUrl": "http://localhost:3001/images/chick-corea-return-to-forever.jpg",
       "artists": [
         "Chick Corea"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 89,
@@ -721,7 +897,9 @@
       "artists": [
         "Ella Fitzgerald",
         "Louis Armstrong"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 90,
@@ -731,7 +909,9 @@
         "Dizzy Gillespie",
         "Sonny Stitt",
         "Sonny Rollins"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 91,
@@ -739,7 +919,9 @@
       "coverUrl": "http://localhost:3001/images/joe-henderson-page-one.png",
       "artists": [
         "Joe Henderson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 92,
@@ -747,7 +929,9 @@
       "coverUrl": "http://localhost:3001/images/bobby-hutcherson-dialogue.jpg",
       "artists": [
         "Bobby Hutcherson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 93,
@@ -755,7 +939,9 @@
       "coverUrl": "http://localhost:3001/images/lee-konitz-subconscious-lee.jpg",
       "artists": [
         "Lee Konitz"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 94,
@@ -763,7 +949,9 @@
       "coverUrl": "http://localhost:3001/images/diana-krall-live-in-paris.jpg",
       "artists": [
         "Diana Krall"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 95,
@@ -771,7 +959,9 @@
       "coverUrl": "http://localhost:3001/images/the-charlie-mingus-jazz-workshop-pithecanthropus-erectus.jpg",
       "artists": [
         "The Charlie Mingus Jazz Workshop"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 96,
@@ -779,7 +969,9 @@
       "coverUrl": "http://localhost:3001/images/charlie-mingus-blues-roots.jpg",
       "artists": [
         "Charlie Mingus"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 97,
@@ -787,7 +979,9 @@
       "coverUrl": "http://localhost:3001/images/charles-mingus-presents-charles-mingus.jpg",
       "artists": [
         "Charles Mingus"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 98,
@@ -795,7 +989,9 @@
       "coverUrl": "http://localhost:3001/images/thelonious-monk-genius-of-modern-music-volume-one.jpg",
       "artists": [
         "Thelonious Monk"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 99,
@@ -803,7 +999,9 @@
       "coverUrl": "http://localhost:3001/images/thelonious-monk-genius-of-modern-music-volume-two.jpg",
       "artists": [
         "Thelonious Monk"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 100,
@@ -812,7 +1010,9 @@
       "artists": [
         "Thelonious Monk Quartet",
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 101,
@@ -821,7 +1021,9 @@
       "artists": [
         "Gerry Mulligan",
         "Chet Baker"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 102,
@@ -829,7 +1031,9 @@
       "coverUrl": "http://localhost:3001/images/joe-pass-virtuoso.jpg",
       "artists": [
         "Joe Pass"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 103,
@@ -837,7 +1041,9 @@
       "coverUrl": "http://localhost:3001/images/jaco-pastorius-jaco-pastorius.jpg",
       "artists": [
         "Jaco Pastorius"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 104,
@@ -845,7 +1051,9 @@
       "coverUrl": "http://localhost:3001/images/george-russell-sextet-ezz-thetics.jpg",
       "artists": [
         "George Russell Sextet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 105,
@@ -854,7 +1062,9 @@
       "artists": [
         "Carla Bley",
         "Paul Haines"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 106,
@@ -862,7 +1072,9 @@
       "coverUrl": "http://localhost:3001/images/arthur-blythe-lenox-avenue-breakdown.jpg",
       "artists": [
         "Arthur Blythe"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 107,
@@ -870,7 +1082,9 @@
       "coverUrl": "http://localhost:3001/images/kenny-burrell-midnight-blue.jpg",
       "artists": [
         "Kenny Burrell"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 108,
@@ -878,7 +1092,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-round-about-midnight.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 109,
@@ -886,7 +1102,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-19-miles-ahead.jpg",
       "artists": [
         "Miles Davis + 19"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 110,
@@ -894,7 +1112,9 @@
       "coverUrl": "http://localhost:3001/images/duke-ellington-the-o-keh-ellington.jpg",
       "artists": [
         "Duke Ellington"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 111,
@@ -902,7 +1122,9 @@
       "coverUrl": "http://localhost:3001/images/dizzy-gillespie-the-complete-rca-victor-recordings-1937-1949.jpg",
       "artists": [
         "Dizzy Gillespie"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 112,
@@ -910,7 +1132,9 @@
       "coverUrl": "http://localhost:3001/images/charlie-haden-liberation-music-orchestra.jpg",
       "artists": [
         "Charlie Haden"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 113,
@@ -919,7 +1143,9 @@
       "artists": [
         "Charlie Haden",
         "Pat Metheny"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 114,
@@ -927,7 +1153,9 @@
       "coverUrl": "http://localhost:3001/images/joe-henderson-inner-urge.jpg",
       "artists": [
         "Joe Henderson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 115,
@@ -935,7 +1163,9 @@
       "coverUrl": "http://localhost:3001/images/jay-jay-johnson-sextet-the-eminent-jay-jay-johnson-volume-1.jpg",
       "artists": [
         "Jay Jay Johnson Sextet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 116,
@@ -944,7 +1174,9 @@
       "artists": [
         "Wynton Kelly",
         "Wes Montgomery"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 117,
@@ -952,7 +1184,9 @@
       "coverUrl": "http://localhost:3001/images/the-roland-kirk-quartet-rip-rig-and-panic-now-please-dont-you-cry-beautiful-edith.jpg",
       "artists": [
         "The Roland Kirk Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 118,
@@ -962,7 +1196,9 @@
         "Lambert",
         "Hendricks",
         "Ross"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 119,
@@ -970,7 +1206,9 @@
       "coverUrl": "http://localhost:3001/images/joe-lovano-from-the-soul.jpg",
       "artists": [
         "Joe Lovano"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 120,
@@ -978,7 +1216,9 @@
       "coverUrl": "http://localhost:3001/images/jackie-mc-lean-let-freedom-ring.jpg",
       "artists": [
         "Jackie McLean"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 121,
@@ -986,7 +1226,9 @@
       "coverUrl": "http://localhost:3001/images/brad-mehldau-the-art-of-the-trio-volume-one.jpg",
       "artists": [
         "Brad Mehldau"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 122,
@@ -994,7 +1236,9 @@
       "coverUrl": "http://localhost:3001/images/pat-metheny-bright-size-life.jpg",
       "artists": [
         "Pat Metheny"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 123,
@@ -1002,7 +1246,9 @@
       "coverUrl": "http://localhost:3001/images/charlie-parker-charlie-parker-with-strings-the-master-takes.jpg",
       "artists": [
         "Charlie Parker"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 124,
@@ -1010,7 +1256,9 @@
       "coverUrl": "http://localhost:3001/images/the-oscar-peterson-trio-night-train.jpg",
       "artists": [
         "The Oscar Peterson Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 125,
@@ -1018,7 +1266,9 @@
       "coverUrl": "http://localhost:3001/images/joshua-redman-wish.jpg",
       "artists": [
         "Joshua Redman"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 126,
@@ -1026,7 +1276,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-rollins-quartet-tenor-madness.jpg",
       "artists": [
         "Sonny Rollins Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 127,
@@ -1034,7 +1286,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-sharrock-ask-the-ages.jpg",
       "artists": [
         "Sonny Sharrock"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 128,
@@ -1042,7 +1296,9 @@
       "coverUrl": "http://localhost:3001/images/wayne-shorter-juju.jpg",
       "artists": [
         "Wayne Shorter"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 129,
@@ -1050,7 +1306,9 @@
       "coverUrl": "http://localhost:3001/images/frank-sinatra-sinatra-at-the-sands.jpg",
       "artists": [
         "Frank Sinatra"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 130,
@@ -1058,7 +1316,9 @@
       "coverUrl": "http://localhost:3001/images/jimmy-smith-the-sermon.jpg",
       "artists": [
         "Jimmy Smith"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 131,
@@ -1066,7 +1326,9 @@
       "coverUrl": "http://localhost:3001/images/art-tatum-the-complete-pablo-solo-masterpieces.jpg",
       "artists": [
         "Art Tatum"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 132,
@@ -1075,7 +1337,9 @@
       "artists": [
         "Art Tatum",
         "Ben Webster"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 133,
@@ -1083,7 +1347,9 @@
       "coverUrl": "http://localhost:3001/images/the-tony-williams-lifetime-emergency.jpg",
       "artists": [
         "The Tony Williams Lifetime"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 134,
@@ -1092,7 +1358,9 @@
       "artists": [
         "Gene Ammons",
         "Sonny Stitt"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 135,
@@ -1100,7 +1368,9 @@
       "coverUrl": "http://localhost:3001/images/louis-armstrong-the-complete-rca-victor-recordings.jpg",
       "artists": [
         "Louis Armstrong"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 136,
@@ -1108,7 +1378,9 @@
       "coverUrl": "http://localhost:3001/images/art-ensemble-of-chicago-nice-guys.jpg",
       "artists": [
         "Art Ensemble of Chicago"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 137,
@@ -1117,7 +1389,9 @@
       "artists": [
         "Bix Beiderbecke",
         "Frankie Trumbauer"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 138,
@@ -1125,7 +1399,9 @@
       "coverUrl": "http://localhost:3001/images/anthony-braxton-for-alto.jpg",
       "artists": [
         "Anthony Braxton"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 139,
@@ -1134,7 +1410,9 @@
       "artists": [
         "John Coltrane",
         "Johnny Hartman"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 140,
@@ -1142,7 +1420,9 @@
       "coverUrl": "http://localhost:3001/images/miles-davis-the-complete-live-at-the-plugged-nickel-1965.jpg",
       "artists": [
         "Miles Davis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 141,
@@ -1150,7 +1430,9 @@
       "coverUrl": "http://localhost:3001/images/al-di-meola-elegant-gypsy.jpg",
       "artists": [
         "Al Di Meola"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 142,
@@ -1158,7 +1440,9 @@
       "coverUrl": "http://localhost:3001/images/dave-douglas-strange-liberation.jpg",
       "artists": [
         "Dave Douglas"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 143,
@@ -1166,7 +1450,9 @@
       "coverUrl": "http://localhost:3001/images/bill-evans-trio-everybody-digs-bill-evans.jpg",
       "artists": [
         "Bill Evans Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 144,
@@ -1174,7 +1460,9 @@
       "coverUrl": "http://localhost:3001/images/bill-evans-trio-portrait-in-jazz.jpg",
       "artists": [
         "Bill Evans Trio"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 145,
@@ -1182,7 +1470,9 @@
       "coverUrl": "http://localhost:3001/images/art-farmer-modern-art.jpg",
       "artists": [
         "Art Farmer"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 146,
@@ -1191,7 +1481,9 @@
       "artists": [
         "Stan Getz",
         "Eddie Sauter"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 147,
@@ -1199,7 +1491,9 @@
       "coverUrl": "http://localhost:3001/images/jimmy-giuffre-the-jimmy-giuffre-3.jpg",
       "artists": [
         "Jimmy Giuffre"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 148,
@@ -1207,7 +1501,9 @@
       "coverUrl": "http://localhost:3001/images/jim-hall-concierto.jpg",
       "artists": [
         "Jim Hall"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 149,
@@ -1215,7 +1511,9 @@
       "coverUrl": "http://localhost:3001/images/herbie-hancock-empyrean-isles.jpg",
       "artists": [
         "Herbie Hancock"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 150,
@@ -1223,7 +1521,9 @@
       "coverUrl": "http://localhost:3001/images/joe-henderson-lush-life-the-music-of-billy-strayhorn.jpg",
       "artists": [
         "Joe Henderson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 151,
@@ -1232,7 +1532,9 @@
       "artists": [
         "Billie Holiday",
         "Ray Ellis"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 152,
@@ -1240,7 +1542,9 @@
       "coverUrl": "http://localhost:3001/images/freddie-hubbard-red-clay.jpg",
       "artists": [
         "Freddie Hubbard"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 153,
@@ -1250,7 +1554,9 @@
         "Keith Jarrett",
         "Gary Peacock",
         "Jack DeJohnette"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 154,
@@ -1259,7 +1565,9 @@
       "artists": [
         "Milt Jackson",
         "Wes Montgomery"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 155,
@@ -1267,7 +1575,9 @@
       "coverUrl": "http://localhost:3001/images/james-p-johnson-the-original-james-p-johnson-1942-1945.jpg",
       "artists": [
         "James P. Johnson"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 156,
@@ -1275,7 +1585,9 @@
       "coverUrl": "http://localhost:3001/images/yusef-lateef-eastern-sounds.jpg",
       "artists": [
         "Yusef Lateef"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 157,
@@ -1283,7 +1595,9 @@
       "coverUrl": "http://localhost:3001/images/mahavishnu-orchestra-birds-of-fire.png",
       "artists": [
         "Mahavishnu Orchestra"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 158,
@@ -1291,7 +1605,9 @@
       "coverUrl": "http://localhost:3001/images/john-mc-laughlin-extrapolation.jpg",
       "artists": [
         "John McLaughlin"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 159,
@@ -1299,7 +1615,9 @@
       "coverUrl": "http://localhost:3001/images/pat-metheny-group-offramp.jpg",
       "artists": [
         "Pat Metheny Group"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 160,
@@ -1307,7 +1625,9 @@
       "coverUrl": "http://localhost:3001/images/charles-mingus-mingus-mingus-mingus-mingus-mingus.jpg",
       "artists": [
         "Charles Mingus"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 161,
@@ -1315,7 +1635,9 @@
       "coverUrl": "http://localhost:3001/images/roscoe-mitchell-sextet-sound.jpg",
       "artists": [
         "Roscoe Mitchell Sextet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 162,
@@ -1323,7 +1645,9 @@
       "coverUrl": "http://localhost:3001/images/thelonious-monk-the-best-of-thelonious-monk-the-blue-note-years.jpg",
       "artists": [
         "Thelonious Monk"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 163,
@@ -1332,7 +1656,9 @@
       "artists": [
         "Thelonious Monk",
         "John Coltrane"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 164,
@@ -1340,7 +1666,9 @@
       "coverUrl": "http://localhost:3001/images/the-thelonious-monk-quartet-monks-dream.jpg",
       "artists": [
         "The Thelonious Monk Quartet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 165,
@@ -1348,7 +1676,9 @@
       "coverUrl": "http://localhost:3001/images/lee-morgan-search-for-the-new-land.jpg",
       "artists": [
         "Lee Morgan"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 166,
@@ -1356,7 +1686,9 @@
       "coverUrl": "http://localhost:3001/images/lee-morgan-cornbread.jpg",
       "artists": [
         "Lee Morgan"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 167,
@@ -1364,7 +1696,9 @@
       "coverUrl": "http://localhost:3001/images/jelly-roll-morton-jelly-roll-morton.jpeg",
       "artists": [
         "Jelly Roll Morton"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 168,
@@ -1372,7 +1706,9 @@
       "coverUrl": "http://localhost:3001/images/david-murray-octet-ming.jpeg",
       "artists": [
         "David Murray Octet"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 169,
@@ -1380,7 +1716,9 @@
       "coverUrl": "http://localhost:3001/images/fats-navarro-the-complete-blue-note-and-capitol-recordings-with-tadd-dameron.jpg",
       "artists": [
         "Fats Navarro"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 170,
@@ -1388,7 +1726,9 @@
       "coverUrl": "http://localhost:3001/images/madeleine-peyroux-careless-love.jpg",
       "artists": [
         "Madeleine Peyroux"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 171,
@@ -1396,7 +1736,9 @@
       "coverUrl": "http://localhost:3001/images/sonny-rollins-way-out-west.jpg",
       "artists": [
         "Sonny Rollins"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 172,
@@ -1404,7 +1746,9 @@
       "coverUrl": "http://localhost:3001/images/bessie-smith-the-essential-bessie-smith.jpg",
       "artists": [
         "Bessie Smith"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 173,
@@ -1412,7 +1756,9 @@
       "coverUrl": "http://localhost:3001/images/sun-ra-jazz-in-silhouette.jpg",
       "artists": [
         "Sun Ra"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 174,
@@ -1420,7 +1766,9 @@
       "coverUrl": "http://localhost:3001/images/trio-beyond-saudades.jpg",
       "artists": [
         "Trio Beyond"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 175,
@@ -1428,7 +1776,9 @@
       "coverUrl": "http://localhost:3001/images/weather-report-black-market.jpg",
       "artists": [
         "Weather Report"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 176,
@@ -1437,7 +1787,9 @@
       "artists": [
         "Nancy Wilson",
         "Cannonball Adderley"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 177,
@@ -1445,7 +1797,9 @@
       "coverUrl": "http://localhost:3001/images/lester-young-the-complete-aladdin-recordings-of-lester-young.jpg",
       "artists": [
         "Lester Young"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     },
     {
       "id": 178,
@@ -1459,7 +1813,9 @@
         "Jo Jones",
         "Freddie Green",
         "Gene Ramey"
-      ]
+      ],
+      "rating": 0,
+      "reviews": []
     }
   ]
 }

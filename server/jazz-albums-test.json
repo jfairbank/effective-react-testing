@@ -8,7 +8,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 11,
@@ -18,7 +18,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 17,
@@ -38,7 +38,7 @@
         "Louis Armstrong"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 15,
@@ -48,7 +48,7 @@
         "Charles Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 178,
@@ -64,7 +64,7 @@
         "Gene Ramey"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     }
   ]
 }

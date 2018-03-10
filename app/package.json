@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "cypress": "cypress open",
     "test": "node scripts/test.js --env=jsdom"
   },
   "dependencies": {
@@ -44,7 +45,10 @@
     "jest-enzyme": "^5.0.3",
     "lodash": "^4.17.5",
     "object-assign": "4.1.1",
+    "postcss-css-variables": "^0.8.0",
+    "postcss-custom-media": "^6.0.0",
     "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-import": "^11.1.0",
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
     "raf": "3.4.0",
@@ -67,9 +71,16 @@
     "whatwg-fetch": "2.0.3"
   },
   "jest": {
-    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
-    "moduleDirectories": [".", "node_modules"],
-    "setupFiles": ["<rootDir>/config/polyfills.js"],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,mjs}"
+    ],
+    "moduleDirectories": [
+      ".",
+      "node_modules"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
     "setupTestFrameworkScriptFile": "<rootDir>/tests/support/setup.js",
     "testMatch": [
       "<rootDir>/tests/**/?(*.)(spec|test).{js,jsx,mjs}",
@@ -81,10 +92,11 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
-        "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -99,9 +111,20 @@
     ]
   },
   "babel": {
-    "presets": ["react-app"]
+    "presets": [
+      "react-app"
+    ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "plugins": [
+      "prettier",
+      "cypress"
+    ],
+    "env": {
+      "browser": true,
+      "cypress/globals": true,
+      "jest": true
+    }
   }
 }

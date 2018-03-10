@@ -8,7 +8,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
         "Eric Dolphy"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
         "The Dave Brubeck Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
         "Lee Morgan"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
         "Wayne Shorter"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
         "Bill Evans Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
         "Herbie Hancock"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
         "Sonny Rollins"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
         "Cannonball Adderley"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 14,
@@ -138,7 +138,7 @@
         "Bill Evans Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 15,
@@ -148,7 +148,7 @@
         "Charles Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 16,
@@ -158,7 +158,7 @@
         "Charlie Parker"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 17,
@@ -168,7 +168,7 @@
         "Louis Armstrong"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 18,
@@ -178,7 +178,7 @@
         "Art Blakey and The Jazz Messengers"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 19,
@@ -188,7 +188,7 @@
         "Ornette Coleman"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 20,
@@ -198,7 +198,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 21,
@@ -208,7 +208,7 @@
         "Erroll Garner"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 22,
@@ -218,7 +218,7 @@
         "Thelonious Monk"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 23,
@@ -228,7 +228,7 @@
         "Hank Mobley"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 24,
@@ -240,7 +240,7 @@
         "Antônio Carlos Jobim"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 25,
@@ -250,7 +250,7 @@
         "Benny Goodman"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 26,
@@ -260,7 +260,7 @@
         "Oliver Nelson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 27,
@@ -270,7 +270,7 @@
         "Art Pepper"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 28,
@@ -280,7 +280,7 @@
         "The Horace Silver Quintet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 29,
@@ -291,7 +291,7 @@
         "Max Roach"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 30,
@@ -301,7 +301,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 31,
@@ -311,7 +311,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 32,
@@ -321,7 +321,7 @@
         "Andrew Hill"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 33,
@@ -331,7 +331,7 @@
         "Keith Jarrett"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 34,
@@ -341,7 +341,7 @@
         "Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 35,
@@ -351,7 +351,7 @@
         "Wes Montgomery"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 36,
@@ -361,7 +361,7 @@
         "The Quintet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 37,
@@ -371,7 +371,7 @@
         "Sarah Vaughan"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 38,
@@ -381,7 +381,7 @@
         "Albert Ayler Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 39,
@@ -391,7 +391,7 @@
         "Count Basie"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 40,
@@ -403,7 +403,7 @@
         "Neal Hefti"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 41,
@@ -413,7 +413,7 @@
         "Art Blakey Quintet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 42,
@@ -423,7 +423,7 @@
         "Art Blakey Quintet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 43,
@@ -433,7 +433,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 44,
@@ -443,7 +443,7 @@
         "Duke Ellington"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 45,
@@ -453,7 +453,7 @@
         "Duke Ellington"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 46,
@@ -463,7 +463,7 @@
         "Ella Fitzgerald"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 47,
@@ -473,7 +473,7 @@
         "Dexter Gordon"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 48,
@@ -483,7 +483,7 @@
         "David Holland Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 49,
@@ -494,7 +494,7 @@
         "John McLaughlin"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 50,
@@ -504,7 +504,7 @@
         "Bud Powell"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 51,
@@ -514,7 +514,7 @@
         "Bud Powell"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 52,
@@ -524,7 +524,7 @@
         "McCoy Tyner"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 53,
@@ -535,7 +535,7 @@
         "Max Roach"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 54,
@@ -545,7 +545,7 @@
         "Duke Ellington"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 55,
@@ -557,7 +557,7 @@
         "Max Roach"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 56,
@@ -567,7 +567,7 @@
         "Grant Green"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 57,
@@ -577,7 +577,7 @@
         "Herbie Hancock"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 58,
@@ -587,7 +587,7 @@
         "Billie Holiday"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 59,
@@ -597,7 +597,7 @@
         "The Modern Jazz Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 60,
@@ -607,7 +607,7 @@
         "Max Roach"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 61,
@@ -617,7 +617,7 @@
         "The Incredible Jimmy Smith"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 62,
@@ -627,7 +627,7 @@
         "Cecil Taylor"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 63,
@@ -637,7 +637,7 @@
         "Benny Carter and His Orchestra"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 64,
@@ -647,7 +647,7 @@
         "Charlie Christian"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 65,
@@ -657,7 +657,7 @@
         "Ornette Coleman"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 66,
@@ -667,7 +667,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 67,
@@ -677,7 +677,7 @@
         "The Gil Evans Orchestra"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 68,
@@ -687,7 +687,7 @@
         "Dexter Gordon"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 69,
@@ -697,7 +697,7 @@
         "Coleman Hawkins"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 70,
@@ -707,7 +707,7 @@
         "Freddie Hubbard"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 71,
@@ -717,7 +717,7 @@
         "King Oliver"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 72,
@@ -727,7 +727,7 @@
         "Wynton Marsalis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 73,
@@ -738,7 +738,7 @@
         "Dizzy Gillespie"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 74,
@@ -748,7 +748,7 @@
         "Sonny Rollins"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 75,
@@ -758,7 +758,7 @@
         "Pharoah Sanders"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 76,
@@ -768,7 +768,7 @@
         "The Horace Silver Quintet & Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 77,
@@ -778,7 +778,7 @@
         "Weather Report"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 78,
@@ -788,7 +788,7 @@
         "Cassandra Wilson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 79,
@@ -798,7 +798,7 @@
         "Larry Young"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 80,
@@ -808,7 +808,7 @@
         "Louis Armstrong"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 81,
@@ -818,7 +818,7 @@
         "Chet Baker"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 82,
@@ -828,7 +828,7 @@
         "The Peter Brötzmann Octet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 83,
@@ -838,7 +838,7 @@
         "Sonny Clark"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 84,
@@ -848,7 +848,7 @@
         "The Ornette Coleman Double Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 85,
@@ -858,7 +858,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 86,
@@ -868,7 +868,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 87,
@@ -878,7 +878,7 @@
         "Chick Corea"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 88,
@@ -888,7 +888,7 @@
         "Chick Corea"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 89,
@@ -899,7 +899,7 @@
         "Louis Armstrong"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 90,
@@ -911,7 +911,7 @@
         "Sonny Rollins"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 91,
@@ -921,7 +921,7 @@
         "Joe Henderson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 92,
@@ -931,7 +931,7 @@
         "Bobby Hutcherson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 93,
@@ -941,7 +941,7 @@
         "Lee Konitz"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 94,
@@ -951,7 +951,7 @@
         "Diana Krall"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 95,
@@ -961,7 +961,7 @@
         "The Charlie Mingus Jazz Workshop"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 96,
@@ -971,7 +971,7 @@
         "Charlie Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 97,
@@ -981,7 +981,7 @@
         "Charles Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 98,
@@ -991,7 +991,7 @@
         "Thelonious Monk"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 99,
@@ -1001,7 +1001,7 @@
         "Thelonious Monk"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 100,
@@ -1012,7 +1012,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 101,
@@ -1023,7 +1023,7 @@
         "Chet Baker"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 102,
@@ -1033,7 +1033,7 @@
         "Joe Pass"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 103,
@@ -1043,7 +1043,7 @@
         "Jaco Pastorius"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 104,
@@ -1053,7 +1053,7 @@
         "George Russell Sextet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 105,
@@ -1064,7 +1064,7 @@
         "Paul Haines"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 106,
@@ -1074,7 +1074,7 @@
         "Arthur Blythe"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 107,
@@ -1084,7 +1084,7 @@
         "Kenny Burrell"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 108,
@@ -1094,7 +1094,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 109,
@@ -1104,7 +1104,7 @@
         "Miles Davis + 19"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 110,
@@ -1114,7 +1114,7 @@
         "Duke Ellington"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 111,
@@ -1124,7 +1124,7 @@
         "Dizzy Gillespie"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 112,
@@ -1134,7 +1134,7 @@
         "Charlie Haden"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 113,
@@ -1145,7 +1145,7 @@
         "Pat Metheny"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 114,
@@ -1155,7 +1155,7 @@
         "Joe Henderson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 115,
@@ -1165,7 +1165,7 @@
         "Jay Jay Johnson Sextet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 116,
@@ -1176,7 +1176,7 @@
         "Wes Montgomery"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 117,
@@ -1186,7 +1186,7 @@
         "The Roland Kirk Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 118,
@@ -1198,7 +1198,7 @@
         "Ross"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 119,
@@ -1208,7 +1208,7 @@
         "Joe Lovano"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 120,
@@ -1218,7 +1218,7 @@
         "Jackie McLean"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 121,
@@ -1228,7 +1228,7 @@
         "Brad Mehldau"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 122,
@@ -1238,7 +1238,7 @@
         "Pat Metheny"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 123,
@@ -1248,7 +1248,7 @@
         "Charlie Parker"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 124,
@@ -1258,7 +1258,7 @@
         "The Oscar Peterson Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 125,
@@ -1268,7 +1268,7 @@
         "Joshua Redman"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 126,
@@ -1278,7 +1278,7 @@
         "Sonny Rollins Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 127,
@@ -1288,7 +1288,7 @@
         "Sonny Sharrock"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 128,
@@ -1298,7 +1298,7 @@
         "Wayne Shorter"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 129,
@@ -1308,7 +1308,7 @@
         "Frank Sinatra"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 130,
@@ -1318,7 +1318,7 @@
         "Jimmy Smith"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 131,
@@ -1328,7 +1328,7 @@
         "Art Tatum"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 132,
@@ -1339,7 +1339,7 @@
         "Ben Webster"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 133,
@@ -1349,7 +1349,7 @@
         "The Tony Williams Lifetime"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 134,
@@ -1360,7 +1360,7 @@
         "Sonny Stitt"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 135,
@@ -1370,7 +1370,7 @@
         "Louis Armstrong"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 136,
@@ -1380,7 +1380,7 @@
         "Art Ensemble of Chicago"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 137,
@@ -1391,7 +1391,7 @@
         "Frankie Trumbauer"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 138,
@@ -1401,7 +1401,7 @@
         "Anthony Braxton"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 139,
@@ -1412,7 +1412,7 @@
         "Johnny Hartman"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 140,
@@ -1422,7 +1422,7 @@
         "Miles Davis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 141,
@@ -1432,7 +1432,7 @@
         "Al Di Meola"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 142,
@@ -1442,7 +1442,7 @@
         "Dave Douglas"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 143,
@@ -1452,7 +1452,7 @@
         "Bill Evans Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 144,
@@ -1462,7 +1462,7 @@
         "Bill Evans Trio"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 145,
@@ -1472,7 +1472,7 @@
         "Art Farmer"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 146,
@@ -1483,7 +1483,7 @@
         "Eddie Sauter"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 147,
@@ -1493,7 +1493,7 @@
         "Jimmy Giuffre"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 148,
@@ -1503,7 +1503,7 @@
         "Jim Hall"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 149,
@@ -1513,7 +1513,7 @@
         "Herbie Hancock"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 150,
@@ -1523,7 +1523,7 @@
         "Joe Henderson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 151,
@@ -1534,7 +1534,7 @@
         "Ray Ellis"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 152,
@@ -1544,7 +1544,7 @@
         "Freddie Hubbard"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 153,
@@ -1556,7 +1556,7 @@
         "Jack DeJohnette"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 154,
@@ -1567,7 +1567,7 @@
         "Wes Montgomery"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 155,
@@ -1577,7 +1577,7 @@
         "James P. Johnson"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 156,
@@ -1587,7 +1587,7 @@
         "Yusef Lateef"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 157,
@@ -1597,7 +1597,7 @@
         "Mahavishnu Orchestra"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 158,
@@ -1607,7 +1607,7 @@
         "John McLaughlin"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 159,
@@ -1617,7 +1617,7 @@
         "Pat Metheny Group"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 160,
@@ -1627,7 +1627,7 @@
         "Charles Mingus"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 161,
@@ -1637,7 +1637,7 @@
         "Roscoe Mitchell Sextet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 162,
@@ -1647,7 +1647,7 @@
         "Thelonious Monk"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 163,
@@ -1658,7 +1658,7 @@
         "John Coltrane"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 164,
@@ -1668,7 +1668,7 @@
         "The Thelonious Monk Quartet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 165,
@@ -1678,7 +1678,7 @@
         "Lee Morgan"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 166,
@@ -1688,7 +1688,7 @@
         "Lee Morgan"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 167,
@@ -1698,7 +1698,7 @@
         "Jelly Roll Morton"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 168,
@@ -1708,7 +1708,7 @@
         "David Murray Octet"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 169,
@@ -1718,7 +1718,7 @@
         "Fats Navarro"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 170,
@@ -1728,7 +1728,7 @@
         "Madeleine Peyroux"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 171,
@@ -1738,7 +1738,7 @@
         "Sonny Rollins"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 172,
@@ -1748,7 +1748,7 @@
         "Bessie Smith"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 173,
@@ -1758,7 +1758,7 @@
         "Sun Ra"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 174,
@@ -1768,7 +1768,7 @@
         "Trio Beyond"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 175,
@@ -1778,7 +1778,7 @@
         "Weather Report"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 176,
@@ -1789,7 +1789,7 @@
         "Cannonball Adderley"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 177,
@@ -1799,7 +1799,7 @@
         "Lester Young"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     },
     {
       "id": 178,
@@ -1815,7 +1815,7 @@
         "Gene Ramey"
       ],
       "rating": 0,
-      "review": ""
+      "reviews": []
     }
   ]
 }

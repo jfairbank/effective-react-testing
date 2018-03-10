@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import debounce from 'lodash/debounce'
 import { Like, Dislike } from './RatingIcon'
 import * as styles from './Album.module.css'
 
@@ -7,25 +6,28 @@ class Album extends Component {
   constructor(props) {
     super(props)
 
-    this.state = { review: props.album.review }
+    this.state = { newReview: '' }
 
-    this.updateReview = this.updateReview.bind(this)
-    this.onReview = debounce(this.onReview, 500)
+    this.updateNewReview = this.updateNewReview.bind(this)
+    this.saveReview = this.saveReview.bind(this)
   }
 
-  onReview(review) {
-    this.props.onReview(review)
+  saveReview() {
+    this.props.onReview(this.state.newReview)
+    this.setState({ newReview: '' })
   }
 
-  updateReview(e) {
-    const review = e.target.value
-    this.setState({ review })
-    this.onReview(review)
+  updateNewReview(e) {
+    this.setState({ newReview: e.target.value })
+  }
+
+  canSaveReview() {
+    return this.state.newReview.trim() !== ''
   }
 
   render() {
     const { album, onGoBack, onRate } = this.props
-    const { review } = this.state
+    const { newReview } = this.state
 
     return (
       <div className={styles.album} data-id="album">
@@ -42,21 +44,45 @@ class Album extends Component {
             {album.artists.join(' - ')}
           </h2>
 
-          <div>
-            <img src={album.coverUrl} alt="" />
+          <div className={styles.info}>
+            <div>
+              <img src={album.coverUrl} alt="" />
+            </div>
+
+            <div className={styles.ratings}>
+              <Like size="4x" albumRating={album.rating} onRate={onRate} />
+              <Dislike size="4x" albumRating={album.rating} onRate={onRate} />
+            </div>
           </div>
 
-          <div className={styles.ratings}>
-            <Like size="3x" albumRating={album.rating} onRate={onRate} />
-            <Dislike size="3x" albumRating={album.rating} onRate={onRate} />
-          </div>
+          <div className={styles.reviews} data-id="reviews">
+            <div className={styles.reviewList}>
+              <h4>Reviews:</h4>
 
-          <div>
-            <textarea
-              value={review}
-              data-id="album-review"
-              onChange={this.updateReview}
-            />
+              <ul>
+                {album.reviews.map((review, i) => (
+                  <li className={styles.review} key={i} data-id="review">
+                    {review}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className={styles.newReview}>
+              <textarea
+                value={newReview}
+                onChange={this.updateNewReview}
+                data-id="new-review"
+              />
+
+              <button
+                disabled={!this.canSaveReview()}
+                onClick={this.saveReview}
+                data-id="save-review"
+              >
+                Save Review
+              </button>
+            </div>
           </div>
         </div>
       </div>

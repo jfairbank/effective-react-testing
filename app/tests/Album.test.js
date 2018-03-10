@@ -5,18 +5,13 @@ import Album from 'src/components/Album'
 import { Like } from 'src/components/RatingIcon'
 import * as Rating from 'src/rating'
 
-jest.mock('lodash/debounce', () => fn =>
-  function(...args) {
-    return fn.apply(this, args)
-  },
-)
-
 describe('Album', () => {
   const baseAlbum = {
     title: 'An Album',
     artists: ['Jane', 'Joe'],
     coverUrl: 'album.jpg',
     rating: Rating.Liked,
+    reviews: [],
   }
 
   function noop() {}
@@ -79,46 +74,60 @@ describe('Album', () => {
     // td.verify(onRateSpy(Rating.Liked))
   })
 
+  it('can display reviews', () => {
+    const album = { ...baseAlbum, reviews: ['Great', 'Awesome'] }
+    const wrapper = shallow(subject({ album }))
+
+    expect(wrapper.contains('Great')).toBe(true)
+    expect(wrapper.contains('Awesome')).toBe(true)
+
+    // Alternative to ensure order
+    // const reviews = wrapper.find('[data-id="review"]')
+    // expect(reviews.first().contains('Great')).toBe(true)
+    // expect(reviews.at(1).contains('Awesome')).toBe(true)
+  })
+
   it('can leave a review', () => {
     // const wrapper = shallow(subject())
     // const instance = wrapper.setState({ review: 'great' }).instance()
-
     // // Technically, this is the subject now
     // // This approach is brittle and reaches to much into implementation details
-    // wrapper.containsMatchingElement(
-    //   <textarea
-    //     value={instance.state.view}
-    //     onChange={instance.updateReview}
-    //   />,
-    // )
+    // expect(
+    //   wrapper.containsMatchingElement(
+    //     <textarea
+    //       value={instance.state.view}
+    //       onChange={instance.updateNewReview}
+    //     />,
+    //   ),
+    // ).toBe(true)
 
     const onReviewSpy = td.function('onReview')
     const wrapper = shallow(subject({ onReview: onReviewSpy }))
+    const review = 'great'
 
-    wrapper.find('textarea').simulate('change', { target: { value: 'great' } })
-    // prettier-ignore
-    expect(
-      wrapper.containsMatchingElement(<textarea value="great" />),
-    ).toBe(
-      true,
-    )
-    // Using jest-enzyme matcher
-    // expect(wrapper.find('textarea')).toHaveProp('value', 'great')
+    // wrapper.find('textarea').simulate('change', { target: { value: review } })
+    // // prettier-ignore
+    // expect(
+    //   wrapper.containsMatchingElement(<textarea value={review}/>),
+    // ).toBe(
+    //   true,
+    // )
+    // // Using jest-enzyme matcher
+    // // expect(wrapper.find('textarea')).toHaveProp('value', 'great')
+    // wrapper.find('[data-id="save-review"]').simulate('click')
+    // td.verify(onReviewSpy(review))
 
     // Alternative if we don't want to couple to textarea
-    // wrapper
-    //   .find('[data-id="album-review"]')
-    //   .simulate('change', { target: { value: 'great' } })
-
-    // expect(wrapper.find('[data-id="album-review"]').prop('value')).toEqual(
-    //   'great',
-    // )
+    wrapper
+      .find('[data-id="new-review"]')
+      .simulate('change', { target: { value: review } })
+    expect(wrapper.find('[data-id="new-review"]').prop('value')).toEqual(review)
     // Using jest-enzyme matcher
-    // expect(wrapper.find('[data-id="album-review"]')).toHaveProp(
+    // expect(wrapper.find('[data-id="new-review"]')).toHaveProp(
     //   'value',
     //   'great',
     // )
-
-    td.verify(onReviewSpy('great'))
+    wrapper.find('[data-id="save-review"]').simulate('click')
+    td.verify(onReviewSpy(review))
   })
 })

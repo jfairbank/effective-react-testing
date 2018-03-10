@@ -11,6 +11,7 @@ class App extends Component {
   render() {
     const {
       albums,
+      artistQuery,
       filter,
       selectedAlbum,
       sorter,
@@ -39,6 +40,7 @@ class App extends Component {
         ) : (
           <Albums
             albums={RemoteData.payload(albums)}
+            artistQuery={artistQuery}
             filter={filter}
             sorter={sorter}
             onFilter={onFilter}
