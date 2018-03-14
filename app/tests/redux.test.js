@@ -1,16 +1,14 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import td from 'testdouble'
-import { mount, render, shallow } from 'enzyme'
+import { mount } from 'enzyme'
 import reducer from 'src/reducer'
 import * as actions from 'src/actions'
 import * as RemoteData from 'src/remoteData'
 import { configureStore } from 'src/store'
 import App from 'src/components/AppContainer'
 import * as Rating from 'src/rating'
-
-const delay = t => new Promise(r => setTimeout(r, t))
-const tick = () => delay(0)
+import * as utils from './support/utils'
 
 describe('reducer', () => {
   const initialState = reducer(undefined, {})
@@ -93,12 +91,15 @@ describe('async actions', () => {
   })
 
   describe('reviewing an album', () => {
-    it('updates the album', async () => {
-      const album = { id: 1 }
-      const expectedAlbum = { id: 1, review: 'Great album' }
+    const album = { id: 1, reviews: [] }
+    const expectedAlbum = { id: 1, reviews: ['Great album'] }
 
+    beforeEach(() => {
       td.when(getState()).thenReturn('state')
       td.when(dependencies.selectors.selectedAlbum('state')).thenReturn(album)
+    })
+
+    it('updates the album', async () => {
       td.when(dependencies.api.update(expectedAlbum)).thenResolve()
 
       await actions.reviewAlbum('Great album')(dispatch, getState, dependencies)
@@ -118,11 +119,32 @@ describe('async actions', () => {
         { times: 0 },
       )
     })
+
+    it('restores the previous album if there is a failure', async () => {
+      td.when(dependencies.api.update(expectedAlbum)).thenReject()
+
+      await actions.reviewAlbum('Great album')(dispatch, getState, dependencies)
+
+      td.verify(
+        dispatch({
+          type: actions.UPDATE_ALBUM,
+          payload: expectedAlbum,
+        }),
+      )
+
+      td.verify(
+        dispatch({
+          type: actions.UPDATE_ALBUM,
+          payload: album,
+        }),
+      )
+    })
   })
 })
 
 describe('store integration tests', () => {
   // let api
+  const originalFetch = global.fetch
   let store
 
   beforeEach(() => {
@@ -131,16 +153,46 @@ describe('store integration tests', () => {
     store = configureStore(require('src/api'), require('src/selectors'))
   })
 
+  afterEach(() => {
+    global.fetch = originalFetch
+  })
+
   it('loads albums', async () => {
     const albums = [{}, {}]
     // td.when(api.all()).thenResolve(albums)
     td.when(fetch('http://localhost:3001/albums')).thenResolve({
+      ok: true,
       json: () => Promise.resolve(albums),
     })
 
     await store.dispatch(actions.loadAlbums())
 
     expect(store.getState().albums).toEqual(RemoteData.success(albums))
+  })
+
+  it('reviews an album', async () => {
+    const album = { id: 1, reviews: [] }
+    const expectedAlbum = { id: 1, reviews: ['Great album'] }
+
+    td
+      .when(
+        // fetch('http://localhost:3001/albums/1', {
+        //   method: 'PUT',
+        //   body: JSON.stringify(expectedAlbum),
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        // }),
+        fetch('http://localhost:3001/albums/1', td.matchers.anything()),
+      )
+      .thenResolve({ ok: true, json: () => Promise.resolve() })
+
+    store.dispatch(actions.receiveAlbums([album]))
+    store.dispatch(actions.selectAlbum(album))
+
+    await store.dispatch(actions.reviewAlbum('Great album'))
+
+    expect(store.getState().albums).toEqual(RemoteData.success([expectedAlbum]))
   })
 
   it('displays albums', async () => {
@@ -167,7 +219,7 @@ describe('store integration tests', () => {
     expect(wrapper.contains('Loading...')).toBe(true)
 
     // This isn't great having to do these steps :(
-    await tick()
+    await utils.tick()
     wrapper.update()
 
     expect(wrapper.contains('Awesome Jazz')).toBe(true)
