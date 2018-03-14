@@ -37,7 +37,7 @@ describe('App', () => {
       ]
 
       expectedAlbumTitles.forEach(title => {
-        cy.get('[data-id="album-list"]').should('contain', title)
+        cy.get('[data-test="album-list"]').should('contain', title)
       })
     })
 
@@ -48,7 +48,7 @@ describe('App', () => {
         .type('John Coltrane')
 
       cy
-        .get('[data-id="album-list-item"]')
+        .get('[data-test="album-list-item"]')
         .should('have.length', 2)
         .each($album => {
           expect($album.text()).to.contain('John Coltrane')
@@ -65,13 +65,13 @@ describe('App', () => {
         "The Jazz Giants '56",
       ]
 
-      cy.get('[data-id="sort-by"]').select('Title')
+      cy.get('[data-test="sort-by"]').select('Title')
 
       expectedAlbumTitles.forEach((title, index) => {
         cy
-          .get('[data-id="album-list-item"]')
+          .get('[data-test="album-list-item"]')
           .eq(index)
-          .find('[data-id="title"]')
+          .find('[data-test="title"]')
           .should('contain', title)
       })
     })
@@ -86,13 +86,13 @@ describe('App', () => {
         'Kind of Blue', // Miles Davis
       ]
 
-      cy.get('[data-id="sort-by"]').select('Artist')
+      cy.get('[data-test="sort-by"]').select('Artist')
 
       expectedAlbumTitles.forEach((title, index) => {
         cy
-          .get('[data-id="album-list-item"]')
+          .get('[data-test="album-list-item"]')
           .eq(index)
-          .find('[data-id="title"]')
+          .find('[data-test="title"]')
           .should('contain', title)
       })
     })
@@ -109,13 +109,13 @@ describe('App', () => {
 
       it('displays and filters liked albums', () => {
         cy
-          .get(`[data-id="album-list-item"]:contains(${album.title})`)
-          .find('[data-id="rating-like"]')
+          .get(`[data-test="album-list-item"]:contains(${album.title})`)
+          .find('[data-test="rating-like"]')
 
-        cy.get('[data-id="filter-by"]').select('Liked Albums')
+        cy.get('[data-test="filter-by"]').select('Liked Albums')
 
         cy
-          .get('[data-id="album-list-item"]')
+          .get('[data-test="album-list-item"]')
           .should('have.length', 1)
           .and('contain', album.artist)
           .and('contain', album.title)
@@ -135,44 +135,44 @@ describe('App', () => {
     })
 
     it('displays album info', () => {
-      cy.get('[data-id="album-list"]').should('not.exist')
+      cy.get('[data-test="album-list"]').should('not.exist')
 
       cy
-        .get('[data-id="album"]')
+        .get('[data-test="album"]')
         .should('contain', album.artist)
         .and('contain', album.title)
     })
 
     it('goes back to the list', () => {
-      cy.get('[data-id="go-back"]').click()
-      cy.get('[data-id="album"]').should('not.exist')
-      cy.get('[data-id="album-list"]')
+      cy.get('[data-test="go-back"]').click()
+      cy.get('[data-test="album"]').should('not.exist')
+      cy.get('[data-test="album-list"]')
     })
 
     context('Rating an album', () => {
       // it('likes and dislikes an album', () => {
       //   // Like the album
       //   cy
-      //     .get('[data-id="rating-like"]')
+      //     .get('[data-test="rating-like"]')
       //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
       //     .click()
       //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
 
       //   // Dislike the album
       //   cy
-      //     .get('[data-id="rating-dislike"]')
+      //     .get('[data-test="rating-dislike"]')
       //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
       //     .click()
       //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
 
       //   // Liked icon should not be selected
       //   cy
-      //     .get('[data-id="rating-like"]')
+      //     .get('[data-test="rating-like"]')
       //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
 
       //   // Remove rating
       //   cy
-      //     .get('[data-id="rating-dislike"]')
+      //     .get('[data-test="rating-dislike"]')
       //     .click()
       //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
       // })
@@ -180,7 +180,7 @@ describe('App', () => {
       it('likes an album', () => {
         // Like album
         cy
-          .get('[data-id="rating-like"]')
+          .get('[data-test="rating-like"]')
           .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
           .click()
           .should('have.attr', 'data-prefix', selectedRatingPrefix)
@@ -190,13 +190,13 @@ describe('App', () => {
         cy.contains('Blue Train').click()
 
         cy
-          .get('[data-id="rating-like"]')
+          .get('[data-test="rating-like"]')
           .should('have.attr', 'data-prefix', selectedRatingPrefix)
       })
 
       // it('ratings persist', () => {
       //   cy
-      //     .get('[data-id="rating-like"]')
+      //     .get('[data-test="rating-like"]')
       //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
       //     .click()
 
@@ -204,7 +204,7 @@ describe('App', () => {
       //   cy.contains('Blue Train').click()
 
       //   cy
-      //     .get('[data-id="rating-like"]')
+      //     .get('[data-test="rating-like"]')
       //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
       // })
     })
@@ -214,17 +214,17 @@ describe('App', () => {
 
       it('adds a review', () => {
         // Add review
-        cy.get('[data-id="reviews"]').should('not.contain', review)
-        cy.get('[data-id="new-review"]').type(review)
-        cy.get('[data-id="save-review"]').click()
-        cy.get('[data-id="new-review"]').should('not.contain', review)
-        cy.get('[data-id="reviews"]').should('contain', review)
+        cy.get('[data-test="reviews"]').should('not.contain', review)
+        cy.get('[data-test="new-review"]').type(review)
+        cy.get('[data-test="save-review"]').click()
+        cy.get('[data-test="new-review"]').should('not.contain', review)
+        cy.get('[data-test="reviews"]').should('contain', review)
 
         // Review persists
         cy.visit('/')
         cy.contains('Blue Train').click()
 
-        cy.get('[data-id="reviews"]').should('contain', review)
+        cy.get('[data-test="reviews"]').should('contain', review)
       })
     })
   })

@@ -36,17 +36,17 @@ const AlbumListItem = ({ album, onSelectAlbum }) => (
       [styles.disliked]: Rating.isDisliked(album.rating),
     })}
     onClick={() => onSelectAlbum(album)}
-    data-id="album-list-item"
+    data-test="album-list-item"
   >
     <img src={album.coverUrl} alt="" />
 
     <RatingIcon rating={album.rating} />
 
-    <h2 className={styles.title} data-id="title">
+    <h2 className={styles.title} data-test="title">
       {album.title}
     </h2>
 
-    <h3 className={styles.artists} data-id="artists">
+    <h3 className={styles.artists} data-test="artists">
       {album.artists.join(' - ')}
     </h3>
   </div>

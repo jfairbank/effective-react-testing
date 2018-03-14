@@ -2,6 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import AlbumList from 'src/components/AlbumList'
 import AlbumListItem from 'src/components/AlbumListItem'
+import renderer from 'react-test-renderer'
 
 describe('AlbumList', () => {
   it('renders albums', () => {
@@ -12,16 +13,10 @@ describe('AlbumList', () => {
 
     function onSelectAlbum() {}
 
-    const wrapper = shallow(
+    const output = renderer.create(
       <AlbumList albums={albums} onSelectAlbum={onSelectAlbum} />,
     )
 
-    albums.forEach(album => {
-      expect(
-        wrapper.contains(
-          <AlbumListItem album={album} onSelectAlbum={onSelectAlbum} />,
-        ),
-      ).toBe(true)
-    })
+    expect(output).toMatchSnapshot()
   })
 })

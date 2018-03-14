@@ -3,14 +3,14 @@ import { shallow } from 'enzyme'
 import td from 'testdouble'
 import * as RemoteData from 'src/remoteData'
 import App from 'src/components/App'
-// import Loading from 'src/components/Loading'
 import Albums from 'src/components/Albums'
+import Album from 'src/components/Album'
 
-describe('App unit', () => {
+describe('App', () => {
   let subject
 
   beforeEach(() => {
-    subject = overrideProps => (
+    subject = (overrideProps = {}) => (
       <App albums={RemoteData.ready()} onMount={() => {}} {...overrideProps} />
     )
   })
@@ -25,27 +25,24 @@ describe('App unit', () => {
 
   it('initially renders a loading message', () => {
     const wrapper = shallow(subject({ albums: RemoteData.ready() }))
-    // Favor contains so not too coupled to implementation details
-    // expect(wrapper.equals(<Loading />)).toBe(true)
+
     expect(wrapper.contains('Loading...')).toBe(true)
   })
 
   it('renders a loading message when data is loading', () => {
     const wrapper = shallow(subject({ albums: RemoteData.loading() }))
+
     expect(wrapper.contains('Loading...')).toBe(true)
   })
 
   it('renders the albums when loaded', () => {
     const albums = [{}, {}]
 
-    // const wrapper = shallow(
-    //   subject({ albums: RemoteData.success(albums) }),
-    // ).find(Albums)
-
     const wrapper = shallow(subject({ albums: RemoteData.success(albums) }))
 
-    // expect(wrapper.prop('albums')).toEqual(albums)
-    expect(wrapper.contains(<Albums albums={albums} />)).toBe(true)
+    expect(wrapper.containsMatchingElement(<Albums albums={albums} />)).toBe(
+      true,
+    )
   })
 
   it('renders an error when data fails to load', () => {
@@ -55,7 +52,16 @@ describe('App unit', () => {
     expect(wrapper.text()).toMatch(`Got an error: ${error.message}`)
   })
 
-  // Low value test
-  // it('passes along the filter value', () => {
-  // });
+  it('renders a selected album', () => {
+    const albums = [{}, {}]
+    const selectedAlbum = {}
+
+    const wrapper = shallow(
+      subject({ selectedAlbum, albums: RemoteData.success(albums) }),
+    )
+
+    expect(
+      wrapper.containsMatchingElement(<Album album={selectedAlbum} />),
+    ).toBe(true)
+  })
 })

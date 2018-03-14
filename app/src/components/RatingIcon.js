@@ -27,7 +27,7 @@ const RatingIcon = ({
         className={classNames(className, {
           [styles.selected]: selected,
         })}
-        data-id={dataId}
+        data-test={dataId}
         icon={selected ? icon : ['far', icon]}
         size={size}
       />

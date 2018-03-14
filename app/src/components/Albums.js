@@ -38,7 +38,7 @@ const Albums = ({
         <select
           value={filter}
           onChange={e => onFilter(e.target.value)}
-          data-id="filter-by"
+          data-test="filter-by"
         >
           <option value={Filter.All}>All Albums</option>
           <option value={Filter.Liked}>Liked Albums</option>
@@ -50,7 +50,7 @@ const Albums = ({
         <select
           value={sorter}
           onChange={e => onSortBy(e.target.value)}
-          data-id="sort-by"
+          data-test="sort-by"
         >
           <option value={Sorter.Id}>Default</option>
           <option value={Sorter.Title}>Title</option>
