@@ -6,7 +6,7 @@ describe('Album', () => {
     title: 'An Album',
     artists: ['Jane', 'Joe'],
     coverUrl: 'album.jpg',
-    rating: Rating.Liked,
+    rating: Rating.NotRated,
     reviews: ['Great', 'Awesome'],
   }
 })

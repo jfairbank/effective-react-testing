@@ -10,7 +10,7 @@ describe('Album', () => {
     title: 'An Album',
     artists: ['Jane', 'Joe'],
     coverUrl: 'album.jpg',
-    rating: Rating.Liked,
+    rating: Rating.NotRated,
     reviews: ['Great', 'Awesome'],
   }
 
@@ -43,8 +43,7 @@ describe('Album', () => {
     ).toBe(true)
 
     // const onRate = td.function('onRate')
-    // const notRatedAlbum = { ...album, rating: Rating.NotRated }
-    // const wrapper = mount(<Album album={notRatedAlbum} onRate={onRate} />)
+    // const wrapper = mount(<Album album={album} onRate={onRate} />)
 
     // wrapper.find('[data-icon="thumbs-up"]').simulate('click')
 

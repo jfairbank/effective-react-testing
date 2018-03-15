@@ -1,4 +1,4 @@
-@import 'sizes.css';
+@import '../sizes.css';
 
 .album {
   margin: 1.25rem;

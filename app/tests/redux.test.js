@@ -34,23 +34,7 @@ describe('async actions', () => {
     dispatch = td.function('dispatch')
   })
 
-  describe('fetching albums', () => {
-    xit('fetches albums', async () => {})
-
-    xit('sends an error if the api call fails', async () => {})
-  })
-
-  describe('reviewing an album', () => {
-    const album = { id: 1, reviews: [] }
-    const expectedAlbum = { id: 1, reviews: ['Great album'] }
-
-    beforeEach(() => {
-      td.when(getState()).thenReturn('state')
-      td.when(dependencies.selectors.selectedAlbum('state')).thenReturn(album)
-    })
-
-    xit('updates the album', async () => {})
-  })
+  xit('fetches albums', async () => {})
 })
 
 describe('store integration tests', () => {
@@ -67,8 +51,6 @@ describe('store integration tests', () => {
   })
 
   xit('loads albums', async () => {})
-
-  xit('reviews an album', async () => {})
 
   xit('displays albums', async () => {})
 })

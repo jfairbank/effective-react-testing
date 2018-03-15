@@ -121,16 +121,6 @@
       "reviews": []
     },
     {
-      "id": 13,
-      "title": "Bitches Brew",
-      "coverUrl": "http://localhost:3001/images/miles-davis-bitches-brew.png",
-      "artists": [
-        "Miles Davis"
-      ],
-      "rating": 0,
-      "reviews": []
-    },
-    {
       "id": 14,
       "title": "Sunday at the Village Vanguard",
       "coverUrl": "http://localhost:3001/images/bill-evans-trio-sunday-at-the-village-vanguard.jpg",
