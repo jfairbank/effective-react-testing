@@ -150,33 +150,6 @@ describe('App', () => {
     })
 
     context('Rating an album', () => {
-      // it('likes and dislikes an album', () => {
-      //   // Like the album
-      //   cy
-      //     .get('[data-test="rating-like"]')
-      //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
-      //     .click()
-      //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
-
-      //   // Dislike the album
-      //   cy
-      //     .get('[data-test="rating-dislike"]')
-      //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
-      //     .click()
-      //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
-
-      //   // Liked icon should not be selected
-      //   cy
-      //     .get('[data-test="rating-like"]')
-      //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
-
-      //   // Remove rating
-      //   cy
-      //     .get('[data-test="rating-dislike"]')
-      //     .click()
-      //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
-      // })
-
       it('likes an album', () => {
         // Like album
         cy
@@ -193,20 +166,6 @@ describe('App', () => {
           .get('[data-test="rating-like"]')
           .should('have.attr', 'data-prefix', selectedRatingPrefix)
       })
-
-      // it('ratings persist', () => {
-      //   cy
-      //     .get('[data-test="rating-like"]')
-      //     .should('not.have.attr', 'data-prefix', selectedRatingPrefix)
-      //     .click()
-
-      //   cy.visit('/')
-      //   cy.contains('Blue Train').click()
-
-      //   cy
-      //     .get('[data-test="rating-like"]')
-      //     .should('have.attr', 'data-prefix', selectedRatingPrefix)
-      // })
     })
 
     context('Reviewing an album', () => {

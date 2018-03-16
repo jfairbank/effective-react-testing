@@ -30,7 +30,7 @@ export const selectAlbum = album => ({ type: SELECT_ALBUM, payload: album })
 export const unselectAlbum = () => ({ type: UNSELECT_ALBUM })
 export const selectFilter = filter => ({ type: SELECT_FILTER, payload: filter })
 
-export const loadAlbums = () => async (dispatch, _, { api }) => {
+export const loadAlbums = () => async (dispatch, getState, { api }) => {
   dispatch(loadingAlbums())
 
   try {

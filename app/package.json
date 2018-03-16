@@ -126,5 +126,6 @@
       "cypress/globals": true,
       "jest": true
     }
-  }
+  },
+  "devDependencies": {}
 }

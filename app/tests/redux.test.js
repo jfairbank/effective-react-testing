@@ -13,9 +13,33 @@ import * as utils from './support/utils'
 describe('reducer', () => {
   const initialState = reducer(undefined, {})
 
-  xit('receives albums', () => {})
+  it('receives albums', () => {
+    const albums = [{}, {}]
 
-  xit('updates an album', () => {})
+    const result = reducer(initialState, actions.receiveAlbums(albums))
+
+    expect(result).toEqual({
+      ...initialState,
+      albums: RemoteData.success(albums),
+    })
+  })
+
+  it('updates an album', () => {
+    const albums = [{ id: 1 }, { id: 2 }]
+    const state = reducer(initialState, actions.receiveAlbums(albums))
+
+    const newAlbum = { id: 1, reviews: ['Great album'] }
+
+    const result = reducer(state, {
+      type: actions.UPDATE_ALBUM,
+      payload: newAlbum,
+    })
+
+    expect(result).toEqual({
+      ...state,
+      albums: RemoteData.success([newAlbum, { id: 2 }]),
+    })
+  })
 })
 
 describe('async actions', () => {
@@ -34,7 +58,15 @@ describe('async actions', () => {
     dispatch = td.function('dispatch')
   })
 
-  xit('fetches albums', async () => {})
+  it('loads albums', async () => {
+    const albums = [{}, {}]
+
+    td.when(dependencies.api.all()).thenResolve(albums)
+
+    await actions.loadAlbums()(dispatch, getState, dependencies)
+
+    td.verify(dispatch(actions.receiveAlbums(albums)))
+  })
 })
 
 describe('store integration tests', () => {
@@ -50,7 +82,48 @@ describe('store integration tests', () => {
     global.fetch = originalFetch
   })
 
-  xit('loads albums', async () => {})
+  it('loads albums', async () => {
+    const albums = [{}, {}]
 
-  xit('displays albums', async () => {})
+    td.when(fetch('http://localhost:3001/albums')).thenResolve({
+      ok: true,
+      json: () => Promise.resolve(albums),
+    })
+
+    await store.dispatch(actions.loadAlbums())
+
+    expect(store.getState().albums).toEqual(RemoteData.success(albums))
+  })
+
+  it('loads and displays albums', async () => {
+    const albums = [
+      {
+        id: 1,
+        title: 'Awesome Jazz',
+        artists: ['Jane'],
+        rating: Rating.NotRated,
+        reviews: [],
+      },
+    ]
+
+    td.when(fetch('http://localhost:3001/albums')).thenResolve({
+      ok: true,
+      json: () => Promise.resolve(albums),
+    })
+
+    const wrapper = mount(
+      <Provider store={store}>
+        <App />
+      </Provider>,
+    )
+
+    expect(wrapper.contains('Loading...')).toBe(true)
+
+    // This isn't great having to do these steps :(
+    await utils.tick()
+    wrapper.update()
+
+    expect(wrapper.contains('Awesome Jazz')).toBe(true)
+    expect(wrapper.contains('Jane')).toBe(true)
+  })
 })
