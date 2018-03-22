@@ -39,12 +39,12 @@ export default function reducer(state = INITIAL_STATE, action) {
       return { ...state, selectedAlbumId: null }
 
     case actions.UPDATE_ALBUM: {
-      const newAlbum = action.payload
+      const updatedAlbum = action.payload
 
       return {
         ...state,
         albums: RemoteData.map(
-          R.map(album => (album.id === newAlbum.id ? newAlbum : album)),
+          R.map(album => (album.id === updatedAlbum.id ? updatedAlbum : album)),
           state.albums,
         ),
       }

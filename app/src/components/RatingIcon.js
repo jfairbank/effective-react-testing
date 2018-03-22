@@ -6,7 +6,7 @@ import * as styles from './RatingIcon.module.css'
 
 const RatingIcon = ({
   className,
-  dataId,
+  dataTest,
   icon,
   size,
   rating,
@@ -27,7 +27,7 @@ const RatingIcon = ({
         className={classNames(className, {
           [styles.selected]: selected,
         })}
-        data-test={dataId}
+        data-test={dataTest}
         icon={selected ? icon : ['far', icon]}
         size={size}
       />
@@ -38,7 +38,7 @@ const RatingIcon = ({
 export const Like = ({ size, albumRating, onRate }) => (
   <RatingIcon
     className={styles.liked}
-    dataId="rating-like"
+    dataTest="rating-like"
     icon="thumbs-up"
     rating={Rating.Liked}
     size={size}
@@ -50,7 +50,7 @@ export const Like = ({ size, albumRating, onRate }) => (
 export const Dislike = ({ size, albumRating, onRate }) => (
   <RatingIcon
     className={styles.disliked}
-    dataId="rating-dislike"
+    dataTest="rating-dislike"
     icon="thumbs-down"
     rating={Rating.Disliked}
     size={size}

@@ -28,16 +28,16 @@ describe('reducer', () => {
     const albums = [{ id: 1 }, { id: 2 }]
     const state = reducer(initialState, actions.receiveAlbums(albums))
 
-    const newAlbum = { id: 1, reviews: ['Great album'] }
+    const updatedAlbum = { id: 1, reviews: ['Great album'] }
 
     const result = reducer(state, {
       type: actions.UPDATE_ALBUM,
-      payload: newAlbum,
+      payload: updatedAlbum,
     })
 
     expect(result).toEqual({
       ...state,
-      albums: RemoteData.success([newAlbum, { id: 2 }]),
+      albums: RemoteData.success([updatedAlbum, { id: 2 }]),
     })
   })
 })

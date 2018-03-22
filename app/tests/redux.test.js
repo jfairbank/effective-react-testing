@@ -13,7 +13,7 @@ import * as utils from './support/utils'
 describe('reducer', () => {
   const initialState = reducer(undefined, {})
 
-  it('receives albums', () => {
+  xit('receives albums', () => {
     const albums = [{}, {}]
 
     const result = reducer(initialState, actions.receiveAlbums(albums))
@@ -24,20 +24,20 @@ describe('reducer', () => {
     })
   })
 
-  it('updates an album', () => {
+  xit('updates an album', () => {
     const albums = [{ id: 1 }, { id: 2 }]
     const state = reducer(initialState, actions.receiveAlbums(albums))
 
-    const newAlbum = { id: 1, reviews: ['Great album'] }
+    const updatedAlbum = { id: 1, reviews: ['Great album'] }
 
     const result = reducer(state, {
       type: actions.UPDATE_ALBUM,
-      payload: newAlbum,
+      payload: updatedAlbum,
     })
 
     expect(result).toEqual({
       ...state,
-      albums: RemoteData.success([newAlbum, { id: 2 }]),
+      albums: RemoteData.success([updatedAlbum, { id: 2 }]),
     })
   })
 })
@@ -58,7 +58,7 @@ describe('async actions', () => {
     dispatch = td.function('dispatch')
   })
 
-  it('loads albums', async () => {
+  xit('loads albums', async () => {
     const albums = [{}, {}]
 
     td.when(dependencies.api.all()).thenResolve(albums)
@@ -82,7 +82,7 @@ describe('store integration tests', () => {
     global.fetch = originalFetch
   })
 
-  it('loads albums', async () => {
+  xit('loads albums', async () => {
     const albums = [{}, {}]
 
     td.when(fetch('http://localhost:3001/albums')).thenResolve({
@@ -95,7 +95,7 @@ describe('store integration tests', () => {
     expect(store.getState().albums).toEqual(RemoteData.success(albums))
   })
 
-  it('loads and displays albums', async () => {
+  xit('loads and displays albums', async () => {
     const albums = [
       {
         id: 1,
