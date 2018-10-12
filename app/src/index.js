@@ -1,6 +1,3 @@
-import '@fortawesome/fontawesome'
-import '@fortawesome/fontawesome-free-solid'
-import '@fortawesome/fontawesome-free-regular'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
